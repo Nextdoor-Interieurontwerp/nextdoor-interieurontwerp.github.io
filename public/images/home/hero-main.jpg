@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+    <link rel="manifest" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/favicon/favicon-16x16.png">
+  <link rel="mask-icon" color="#a1968a" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/favicon/safari-pinned-tab.svg">
+  <meta name="msapplication-TileColor" content="#a1968a">
+  <meta name="theme-color" content="#a1968a">
+
+  <meta name="p:domain_verify" content="01d85bfc05c0b7570c11b63b71785937" />
+
+  <title>Page not found - NEXTDOOR interieurontwerp</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!--<script type="text/plain" data-service="google-analytics" data-category="statistics" async data-cmplz-src="https://www.googletagmanager.com/gtag/js?id=G-03PDP1LX97"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-03PDP1LX97', {'allow_enhanced_conversions':true});
+  </script>-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins&display=swap">
+  <link rel="preload" href="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/includes/core/assets/style/normalize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:title" content="Page not found - NEXTDOOR interieurontwerp" />
+	<meta property="og:site_name" content="NEXTDOOR interieurontwerp" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://nextdoorinterieurontwerp.nl/#website","url":"https://nextdoorinterieurontwerp.nl/","name":"NEXTDOOR interieurontwerp","description":"Interieurarchitect voor al uw interieurontwerp","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://nextdoorinterieurontwerp.nl/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"nl-NL"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="NEXTDOOR interieurontwerp &raquo; feed" href="https://nextdoorinterieurontwerp.nl/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NEXTDOOR interieurontwerp &raquo; reacties feed" href="https://nextdoorinterieurontwerp.nl/comments/feed/" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cmplz-general-css' href='https://nextdoorinterieurontwerp.nl/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1767090401' type='text/css' media='all' />
+<link rel='stylesheet' id='soul_main_styles-css' href='https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/styles/core/core.entry.css?ver=1696944075' type='text/css' media='all' />
+<script type="text/javascript" src="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/includes/core/assets/scripts/soul.lazyload.js?ver=1693562011" id="soul_lazy_load-js" defer></script>
+<script type="text/javascript" src="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/includes/core/assets/scripts/cookie/dist/cookie.js?ver=1693562011" id="soul_cookie_notice-js" defer></script>
+<script type="text/javascript" src="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/scripts/main/dist/main.js?ver=1693562011" id="soul_main_entry-js" defer></script>
+<link rel="https://api.w.org/" href="https://nextdoorinterieurontwerp.nl/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nextdoorinterieurontwerp.nl/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style type="text/css" id="wp-custom-css">
+			.align-center-vertical {
+	display: flex;
+  align-items: center;
+}
+
+#soul_cookie_notice { display: none; }
+
+
+.cmplz-btn {
+	background-color: #f2f2f2 !important;
+}
+
+.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-accept { background-color: var(--cmplz_button_accept_background_color) !important;}
+
+.logos .wp-block-group__inner-container figure {
+	width: auto;
+}		</style>
+		
+<!-- Event snippet for Paginaweergave conversion page -->
+<!--<script>
+  gtag('event', 'conversion', {'send_to': 'AW-1048537913/l-0YCPfJkIACELnW_fMD'});
+</script>-->
+
+</head>
+
+<body data-cmplz=1 class="error404 wp-theme-nextdoor single-page">
+
+  <header class="header">
+    <div class="wrapper">
+      <a class="header__logo" href="/"><img class="header__logo" alt="NEXTDOOR Logo" src="https://nextdoorinterieurontwerp.nl/wp-content/themes/nextdoor/assets/img/logo.svg"></a>
+      <nav role="navigation" class="header__nav--main"><div class="header__menu"><ul><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-38"><a href="https://nextdoorinterieurontwerp.nl/">Nextdoor</a></li>
+<li id="menu-item-177" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-177"><a href="https://nextdoorinterieurontwerp.nl/category/zakelijk/">Zakelijk</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176"><a href="https://nextdoorinterieurontwerp.nl/category/particulier/">Particulier</a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://nextdoorinterieurontwerp.nl/contact/">Contact</a></li>
+</ul></div></nav>
+      <div class="header__nav--mobile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+          <g transform="translate(-403 -79)">
+            <g transform="translate(403 79)" fill="#9e9688" stroke="#c0dfe8" stroke-width="4">
+              <circle cx="28.5" cy="28.5" r="28.5" stroke="none" />
+              <circle cx="28.5" cy="28.5" r="26.5" fill="none" />
+            </g>
+            <line x2="26.425" transform="translate(418.288 115.481)" fill="none" stroke="#fff" stroke-width="3" />
+            <line x2="17.225" transform="translate(427.5 107.5)" fill="none" stroke="#fff" stroke-width="3" />
+            <line x2="26.425" transform="translate(418.288 99.519)" fill="none" stroke="#fff" stroke-width="3" />
+          </g>
+        </svg>
+        <nav role="navigation" class="header__nav--mobile"><div class="header__menu--mobile"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-38"><a href="https://nextdoorinterieurontwerp.nl/">Nextdoor</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-177"><a href="https://nextdoorinterieurontwerp.nl/category/zakelijk/">Zakelijk</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176"><a href="https://nextdoorinterieurontwerp.nl/category/particulier/">Particulier</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://nextdoorinterieurontwerp.nl/contact/">Contact</a></li>
+</ul></div></nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="landingInfo">
+    <div class="wrapper" style="grid-template-columns: minmax(4rem, 1fr) minmax(auto, 618px) minmax(auto, 660px) minmax(4rem, 1fr)">
+      <div class="socialButtons">
+        <a href="https://nl.linkedin.com/in/petra-willems-stolte-2675a3166" class="socialIcon--linkedin" target="_BLANK" title="linkedin">LinkedIn</a>
+        <a href="https://www.facebook.com/nextdoorinterieurontwerp" class="socialIcon--facebook" target="_BLANK" title="facebook">Facebook</a>
+        <a href="https://www.instagram.com/nextdoorinterieurontwerp/" class="socialIcon--instagram" target="_BLANK" title="instagram">Instagram</a>
+      </div>
+
+      <div class="contactInfo">
+        <a href="tel:0638894042" class="contactItem--phone">06 388 940 42</a>
+        <a href="mailto:info@nextdoorinterieurontwerp.nl" class="contactItem--mail">info@nextdoorinterieurontwerp.nl</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="heroSection">
+    <div class="heroSection__filler" id="heroSectionFiller"></div>
+    <img width="1100" height="1100" src="https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58.jpg" class="heroSection__image wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58.jpg 1100w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-300x300.jpg 300w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-1024x1024.jpg 1024w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-150x150.jpg 150w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-768x768.jpg 768w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-1080x1080.jpg 1080w, https://nextdoorinterieurontwerp.nl/wp-content/uploads/2023/07/NextDoor29032023ZA-58-800x800.jpg 800w" sizes="(max-width: 1100px) 100vw, 1100px" />  </div>
+
+<main role="main" class="main>">
+
+  <div class="wrapper">
+
+    <h1>Pagina niet gevonden</h1>
+    <p>U wordt automatisch doorgestuurd naar de homepagina over 5 seconden</p>
+    <a href="/">Terug naar home</a>
+
+  </div>
+
+</main>
+
+<script>
+  setTimeout(function() { 
+    window.location = '/';
+  },5000)
+</script>
+
+<footer class="footer">
+  <div class="wrapper">
+    <div class="col__container--3">
+      <div class="contactInformation">
+        <h2>Nextdoor<br>interieurontwerp en -advies</h2>
+
+        <a target="_BLANK" href="https://www.google.com/maps/search/St.+Leonardusstraat+4+-+5341+AN+-+Oss/@51.7692779,5.5149807,17z/data=!3m1!4b1?entry=ttu" class="contactItem--location">St. Leonardusstraat 4<br>5341 AN Oss</a>
+        <a href="tel:0638894042" class="contactItem--phone">06-388 940 42</a>
+        <a href="mailto:info@nextdoorinterieurontwerp.nl" class="contactItem--mail">info@nextdoorinterieurontwerp.nl</a>
+
+        <div class="legalInfo">
+          <p>KvK 75743914</p>
+          <p style="margin-bottom:0;">BTW nr: NL860381651B01</p>
+        </div>
+      </div>
+
+      <div class="footerNavigation">
+        <nav role="navigation"><div class="footer__menu"><ul><li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="/">interieurontwerp</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="/category/zakelijk/">zakelijk</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="/category/particulier/">particulier</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"><a href="/impressie/">presentatie</a></li>
+<li id="menu-item-362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362"><a href="/#petrawillems">petra willems</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="/contact/">contact</a></li>
+</ul></div></nav>
+        <!-- <nav role="navigation"><div class="footer__menu--2"><ul><li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88"><a href="/">Home</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="https://nextdoorinterieurontwerp.nl/contact/">Contact</a></li>
+</ul></div></nav> -->
+      </div>
+
+      <div class="social">
+        <div class="socialButtons">
+          <a href="https://nl.linkedin.com/in/petra-willems-stolte-2675a3166" class="socialIcon--linkedin" target="_BLANK" title="linkedin">LinkedIn</a>
+          <a href="https://www.facebook.com/nextdoorinterieurontwerp" class="socialIcon--facebook" target="_BLANK" title="facebook">Facebook</a>
+          <a href="https://www.instagram.com/nextdoorinterieurontwerp/" class="socialIcon--instagram" target="_BLANK" title="instagram">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="sub-footer">
+      <p>&copy; 2026 Nextdoor interieurontwerp en -advies</p>
+      <a href="https://nextdoorinterieurontwerp.nl/wp-content/uploads/2021/01/NEXTDOOR_algemene-voorwaarden.pdf" target="_blank">Algemene voorwaarden</a>
+      <a href="https://nextdoorinterieurontwerp.nl/wp-content/uploads/2021/01/NEXTDOOR_privacyverklaring.pdf" target="_blank">Privacyverklaring</a>
+      <p class="no-margin" >website by <a target="_BLANK" href="https://www.freshvormgeving.nl/">FRESH vormgeving</a> and <a href="https://www.soulgood.nl/" target="_BLANK">Soulgood</a></p>
+    </div>
+  </div>
+</footer>
+
+<div class="wp-foot"><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/nextdoor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Beheer toestemming</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Dialoogvenster sluiten">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin"><p>Om de beste ervaringen te bieden, gebruiken we technologieën zoals cookies om apparaatinformatie op te slaan en/of te openen. Door toestemming te geven voor deze technologieën kunnen we gegevens zoals surfgedrag of unieke ID's op deze site verwerken. Als u geen toestemming geeft of uw toestemming intrekt, kan dit een negatief effect hebben op bepaalde kenmerken en functies.</p></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functioneel</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Functioneel</span></label>
+								</span>
+								Altijd actief							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">De technische opslag of toegang is strikt noodzakelijk voor het legitieme doel om het gebruik van een specifieke dienst mogelijk te maken die uitdrukkelijk door de abonnee of gebruiker is aangevraagd, of met als enig doel de overdracht van een communicatie via een elektronisch-communicatienetwerk uit te voeren.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistieken</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Statistieken</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">De technische opslag of toegang die uitsluitend voor statistische doeleinden wordt gebruikt.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">De technische opslag of toegang is vereist om gebruikersprofielen aan te maken om advertenties te verzenden, of om de gebruiker op een website of over meerdere websites te volgen voor soortgelijke marketingdoeleinden.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<ul>
+			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Beheer opties</a></li>
+			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Beheer diensten</a></li>
+			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Beheer {vendor_count} leveranciers</a></li>
+			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">Lees meer over deze doeleinden</a></li>
+		</ul>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Akkoord</button>
+		<button class="cmplz-btn cmplz-deny">Weigeren</button>
+		<button class="cmplz-btn cmplz-view-preferences">Bekijk voorkeuren</button>
+		<button class="cmplz-btn cmplz-save-preferences">Voorkeuren opslaan</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Bekijk voorkeuren</a>
+			</div>
+
+	
+	<div class="cmplz-documents cmplz-links">
+		<ul>
+			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
+		</ul>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Beheer toestemming</button>
+
+</div><div class="cookieNotice" id="soul_cookie_notice"><div class="cookieNotice__text"><p>NEXTDOOR maakt gebruik van cookies voor een correcte werking van de website.</p></div><button id="soul_cookie_notice_btn" class="cookieNotice__btn">OK</button></div><script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://nextdoorinterieurontwerp.nl","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"14","version":"7.5.6.1","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"1","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://nextdoorinterieurontwerp.nl/wp-json/complianz/v1/","locale":"lang=nl&locale=nl_NL","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"36","cookie_path":"/","categories":{"statistics":"statistieken","marketing":"marketing"},"tcf_active":"","placeholdertext":"Klik om {category} cookies te accepteren en deze inhoud in te schakelen","css_file":"https://nextdoorinterieurontwerp.nl/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=14","page_links":{"eu":{"cookie-statement":{"title":"Cookiebeleid","url":"https://nextdoorinterieurontwerp.nl/wp-content/uploads/2021/01/NEXTDOOR_privacyverklaring.pdf"},"privacy-statement":{"title":"Privacyverklaring","url":"https://nextdoorinterieurontwerp.nl/wp-content/uploads/2021/01/NEXTDOOR_privacyverklaring.pdf"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Klik om {category} cookies te accepteren en deze inhoud in te schakelen"};
+//# sourceURL=cmplz-cookiebanner-js-extra
+/* ]]> */
+</script>
+<script defer type="text/javascript" src="https://nextdoorinterieurontwerp.nl/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1767090401" id="cmplz-cookiebanner-js"></script>
+				<script async data-category="functional"
+						src="https://www.googletagmanager.com/gtag/js?id=G-03PDP1LX97"></script><!-- Statistics script Complianz GDPR/CCPA -->
+						<script 							data-category="functional">window['gtag_enable_tcf_support'] = false;
+window.dataLayer = window.dataLayer || [];
+function gtag(){
+	dataLayer.push(arguments);
+}
+
+gtag('set', 'dYWVlZG', true);
+gtag('set', 'ads_data_redaction', true);
+gtag('set', 'url_passthrough', false);
+gtag('consent', 'default', {
+	'security_storage': "granted",
+	'functionality_storage': "granted",
+	'personalization_storage': "denied",
+	'analytics_storage': 'denied',
+	'ad_storage': "denied",
+	'ad_user_data': 'denied',
+	'ad_personalization': 'denied',
+});
+
+
+
+document.addEventListener("cmplz_before_categories_consent", function (e) {
+
+	function gtag(){
+		dataLayer.push(arguments);
+	}
+	let consentedCategories = e.detail.categories;
+	let preferences = 'denied';
+	let statistics = 'denied';
+	let marketing = 'denied';
+
+	if (cmplz_in_array( 'preferences', consentedCategories )) {
+		preferences = 'granted';
+	}
+
+	if (cmplz_in_array( 'statistics', consentedCategories )) {
+		statistics = 'granted';
+	}
+
+	if (cmplz_in_array( 'marketing', consentedCategories )) {
+		marketing = 'granted';
+	}
+	gtag('consent', 'update', {
+		'security_storage': "granted",
+		'functionality_storage': "granted",
+		'personalization_storage': preferences,
+		'analytics_storage': statistics,
+		'ad_storage': marketing,
+		'ad_user_data': marketing,
+		'ad_personalization': marketing,
+	});
+
+	if ( statistics==='granted' ) {
+		gtag('js', new Date());
+		
+		gtag('config', 'G-03PDP1LX97', {
+				cookie_flags:'secure;samesite=none',
+			
+		});
+	}
+
+});
+
+
+document.addEventListener("cmplz_revoke", function (e) {
+	gtag('consent', 'update', {
+		'security_storage': "granted",
+		'functionality_storage': "granted",
+		'personalization_storage': "denied",
+		'analytics_storage': 'denied',
+		'ad_storage': "denied",
+		'ad_user_data': 'denied',
+		'ad_personalization': 'denied',
+	});
+});
+</script></div>
+
+</body>
+</html>
