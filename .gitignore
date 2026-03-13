@@ -5,6 +5,7 @@
 .nitro
 .cache
 dist
+public/media-list.json
 
 # Node dependencies
 node_modules
