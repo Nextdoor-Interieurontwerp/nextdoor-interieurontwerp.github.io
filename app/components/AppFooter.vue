@@ -17,7 +17,7 @@
       <div class="footer-contact-col">
         <p><a href="tel:+31638894042">06 388 940 42</a></p>
         <p><a href="mailto:info@nextdoorinterieurontwerp.nl">info@nextdoorinterieurontwerp.nl</a></p>
-        <p>Heescheweg 44, 5388 VK Nistelrode</p>
+        <p>Leonardusstraat 4, 5341 AN Oss</p>
         <div class="footer-social">
           <a href="https://www.linkedin.com/company/nextdoor-interieurontwerp" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect transform="translate(2,9)" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>

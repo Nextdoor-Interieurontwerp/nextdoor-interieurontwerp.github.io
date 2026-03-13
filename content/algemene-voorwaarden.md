@@ -9,13 +9,13 @@ robots: noindex
 
 **ALGEMENE VERKOOP- EN LEVERINGSVOORWAARDEN VAN:**
 
-Nextdoor B.V., Steegeindstraat 8 (5396 NN) Lithoijen
+Nextdoor B.V., Leonardusstraat 4 (5341 AN) Oss
 
 ## Artikel 1. Definities
 
 In deze algemene voorwaarden worden de hierna volgende termen in de navolgende betekenis gebruikt, tenzij uitdrukkelijk anders is aangegeven:
 
-**Gebruiker:** de Gebruiker van deze algemene voorwaarden, zijnde Nextdoor, statutair gevestigd in Lithoijen;
+**Gebruiker:** de Gebruiker van deze algemene voorwaarden, zijnde Nextdoor, statutair gevestigd in Oss;
 
 **Opdrachtgever:** de wederpartij van Gebruiker;
 

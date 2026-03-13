@@ -7,12 +7,12 @@ robots: noindex
 # Privacyverklaring
 ::
 
-NEXTDOOR interieurontwerp en -advies, gevestigd aan Heescheweg 44, 5388 VK Nistelrode, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
+NEXTDOOR interieurontwerp en -advies, gevestigd aan Leonardusstraat 4, 5341 AN Oss, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 
 **Contactgegevens:**
 
 NEXTDOOR interieurontwerp en -advies  
-Heescheweg 44, 5388 VK Nistelrode  
+Leonardusstraat 4, 5341 AN Oss
 [06 388 940 42](tel:+31638894042)  
 [info@nextdoorinterieurontwerp.nl](mailto:info@nextdoorinterieurontwerp.nl)  
 KvK 75743914

@@ -90,7 +90,8 @@ export default defineNuxtConfig({
     },
     i18n: {
         locales: [
-            { code: 'nl', language: 'nl-NL', name: 'Nederlands', file: 'nl.json' }
+            { code: 'nl', language: 'nl-NL', name: 'Nederlands', file: 'nl.json' },
+            { code: 'en', language: 'en-GB', name: 'English', file: 'en.json' }
         ],
         defaultLocale: 'nl',
         strategy: 'prefix_except_default',
@@ -168,9 +169,38 @@ export default defineNuxtConfig({
             ],
         },
         workbox: {
-            navigateFallback: null,
+            navigateFallback: '/offline',
             globPatterns: ['**/*.{js,css,html,png,svg,ico,woff,woff2}'],
             maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+            runtimeCaching: [
+                {
+                    urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+                    handler: 'CacheFirst',
+                    options: {
+                        cacheName: 'google-fonts-cache',
+                        expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                        cacheableResponse: { statuses: [0, 200] },
+                    },
+                },
+                {
+                    urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+                    handler: 'CacheFirst',
+                    options: {
+                        cacheName: 'gstatic-fonts-cache',
+                        expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                        cacheableResponse: { statuses: [0, 200] },
+                    },
+                },
+                {
+                    urlPattern: ({ request }: { request: Request }) => request.mode === 'navigate',
+                    handler: 'NetworkFirst',
+                    options: {
+                        cacheName: 'pages-cache',
+                        expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 7 },
+                        cacheableResponse: { statuses: [0, 200] },
+                    },
+                },
+            ],
         },
         client: {
             installPrompt: true,
