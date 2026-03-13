@@ -5,8 +5,9 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "generate": "STUDIO_GITHUB_TOKEN=local nuxt generate",
+    "preview": "nuxt preview",
+    "generate-icons": "node generate-icons.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^3.12.0",
@@ -17,8 +18,10 @@
     "nuxt-studio": "^1.4.0"
   },
   "devDependencies": {
+    "@vite-pwa/nuxt": "^1.1.1",
     "lucide-vue-next": "^0.577.0",
-    "nuxt-component-meta": "^0.17.2"
+    "nuxt-component-meta": "^0.17.2",
+    "sharp": "^0.34.5"
   },
   "overrides": {
     "serialize-javascript": "^7.0.3",

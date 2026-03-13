@@ -60,6 +60,10 @@ onUnmounted(() => {
               <p class="project-category">{{ selectedProject.category }}</p>
               <h2>{{ selectedProject.title }}</h2>
               <p class="project-desc">{{ selectedProject.description }}</p>
+              <div v-if="selectedProject.location || selectedProject.services" class="project-meta">
+                <p v-if="selectedProject.location"><strong>Locatie:</strong> {{ selectedProject.location }}</p>
+                <p v-if="selectedProject.services"><strong>Werkzaamheden:</strong> {{ selectedProject.services }}</p>
+              </div>
               <div class="tags">
                 <span v-for="tag in selectedProject.tags" :key="tag" class="tag">#{{ tag }}</span>
               </div>
@@ -230,6 +234,17 @@ onUnmounted(() => {
   line-height: 1.8;
 }
 
+.project-meta {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.project-meta p {
+  margin-bottom: 0.4rem;
+}
+
 .tags {
   margin-top: auto;
   padding-top: 3rem;
@@ -276,6 +291,7 @@ onUnmounted(() => {
   }
 }
 
+/* Vue <Transition name="fade"> classes — used at runtime, not statically referenced */
 .fade-enter-active, .fade-leave-active { transition: opacity 0.25s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
 </style>

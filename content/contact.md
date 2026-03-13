@@ -1,27 +1,35 @@
 ---
-title: Contact
-description: Neem contact op met NEXTDOOR interieurontwerp.
+title: Contact | NEXTDOOR Interieurontwerp Oss
+description: Neem contact op met NEXTDOOR interieurontwerp en -advies in Oss. Bel, mail of stuur een bericht voor een vrijblijvend gesprek over jouw interieurproject.
+ogImage:
+  component: Default
+  props:
+    title: Neem contact op
 ---
 
 ::contact-section
 # Contact
+
 Heb je een vraag of wil je een afspraak maken? Neem gerust contact met ons op.
 
-::contact-info
-:::info-item
-### Adres
-Heescheweg 44
-5388 VK Nistelrode
-:::
+  :::contact-info
+    ::::info-item
+    ### Adres
 
-:::info-item
-### E-mail
-[info@nextdoorinterieurontwerp.nl](mailto:info@nextdoorinterieurontwerp.nl)
-:::
+    Leonardusstraat 4
+    5341 AN Oss
+    ::::
 
-:::info-item
-### Telefoon
-[06 51 81 05 74](tel:+31651810574)
-:::
-::
+    ::::info-item
+    ### E-mail
+
+    <info@nextdoorinterieurontwerp.nl>
+    ::::
+
+    ::::info-item
+    ### Telefoon
+
+    [06 38 89 40 42](tel:+31638894042)
+    ::::
+  :::
 ::

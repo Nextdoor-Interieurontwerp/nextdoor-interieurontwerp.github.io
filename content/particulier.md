@@ -1,6 +1,10 @@
 ---
-title: Particulier
-description: Een overzicht van onze particuliere projecten.
+title: Particulier Interieurontwerp | NEXTDOOR Oss
+description: Bekijk onze particuliere interieurprojecten. Van woonkamer, keuken en badkamer tot de complete woninginrichting — op maat gemaakt in Oss en omgeving.
+ogImage:
+  component: Default
+  props:
+    title: Particulier Interieurontwerp
 ---
 
 ::page-header

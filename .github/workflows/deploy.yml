@@ -33,6 +33,8 @@ jobs:
 
       - name: Generate static site
         run: npm run generate
+        env:
+          STUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

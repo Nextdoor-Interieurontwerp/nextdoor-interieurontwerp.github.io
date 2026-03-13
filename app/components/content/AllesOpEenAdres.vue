@@ -4,7 +4,7 @@
       <h2 class="section-title">ALLES OP ÉÉN ADRES:</h2>
 
       <div class="logo-center">
-        <img src="/images/home/logo-full.svg" alt="NEXTDOOR Interieurontwerp en -advies" />
+        <img src="/images/home/logo-full-dark.svg" alt="NEXTDOOR Interieurontwerp en -advies" />
       </div>
 
       <p class="alles-desc">Na het interieuradvies kunnen we direct aan de slag met de realisatie en uitvoering van het herinrichten van woning of bedrijfspand. Een groot voordeel, want je hoeft zelf niet op zoek naar aannemers, uitvoerders of andere vakspecialisten. Binnen de kaders van tijd, kwaliteit en budget zijn wij jouw <strong><em>single point of contact</em></strong>, waardoor je volledig ontzorgd wordt.</p>
@@ -67,12 +67,10 @@
   text-align: center;
   margin-bottom: 4rem;
 }
-
 .logo-center img {
   max-width: 400px;
   width: 60%;
   height: auto;
-  opacity: 0.35;
 }
 
 .alles-desc {

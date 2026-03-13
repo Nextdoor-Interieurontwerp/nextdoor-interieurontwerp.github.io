@@ -34,7 +34,7 @@
       </div>
 
       <div class="werkwijze-cta">
-        <NuxtLink to="/contact" class="btn-orange">NAAR PRESENTATIE</NuxtLink>
+        <NuxtLink to="/impressie" class="btn-orange">NAAR DE PRESENTATIE</NuxtLink>
       </div>
     </div>
   </section>

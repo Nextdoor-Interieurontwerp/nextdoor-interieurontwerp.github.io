@@ -8,13 +8,10 @@ export default defineNuxtConfig({
             autoSubfolderIndex: true
         }
     },
-    $production: {
-        studio: false
-    },
     future: {
         compatibilityVersion: 4,
     },
-    modules: ['@nuxt/content', 'nuxt-studio', '@nuxtjs/i18n', "@nuxtjs/seo"],
+    modules: ['@nuxt/content', 'nuxt-studio', '@nuxtjs/i18n', "@nuxtjs/seo", "@vite-pwa/nuxt"],
     hooks: {
         'build:before': (): void => {
             type MediaItem = {
@@ -51,19 +48,41 @@ export default defineNuxtConfig({
     },
     schemaOrg: {
         identity: {
-            type: 'BusinessOrganization',
+            type: 'LocalBusiness',
             name: 'NEXTDOOR Interieur Ontwerp',
             url: 'https://nextdoorinterieurontwerp.nl',
-            logo: '/images/logo.svg', // Assuming this is available
+            logo: 'https://nextdoorinterieurontwerp.nl/images/logo.svg',
+            telephone: '+31638894042',
+            email: 'info@nextdoorinterieurontwerp.nl',
+            address: {
+                streetAddress: 'Leonardusstraat 4',
+                addressLocality: 'Oss',
+                postalCode: '5341 AN',
+                addressCountry: 'NL',
+            },
+            geo: {
+                latitude: 51.7654,
+                longitude: 5.5176,
+            },
+            openingHoursSpecification: [
+                {
+                    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                    opens: '09:00',
+                    closes: '17:00',
+                }
+            ],
+            sameAs: [
+                'https://www.instagram.com/nextdoorinterieurontwerp',
+            ],
         }
     },
     ogImage: {
         enabled: true,
         defaults: {
-            url: '/images/og-main.jpg',
+            component: 'Default',
             width: 1200,
             height: 630,
-            alt: 'NEXTDOOR Interieur Ontwerp'
+            alt: 'NEXTDOOR Interieur Ontwerp',
         }
     },
     seo: {
@@ -71,8 +90,7 @@ export default defineNuxtConfig({
     },
     i18n: {
         locales: [
-            { code: 'nl', language: 'nl-NL', name: 'Nederlands', file: 'nl.json' },
-            { code: 'en', language: 'en-US', name: 'English', file: 'en.json' }
+            { code: 'nl', language: 'nl-NL', name: 'Nederlands', file: 'nl.json' }
         ],
         defaultLocale: 'nl',
         strategy: 'prefix_except_default',
@@ -84,6 +102,11 @@ export default defineNuxtConfig({
     },
     sitemap: {
         enabled: true,
+    },
+    $production: {
+        studio: {
+            enabled: false
+        }
     },
     studio: {
         repository: {
@@ -99,12 +122,62 @@ export default defineNuxtConfig({
     app: {
         head: {
             link: [
-                { rel: 'icon', type: 'image/webp', href: '/favicon.webp' },
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+                { rel: 'shortcut icon', href: '/favicon.ico' },
+                { rel: 'apple-touch-icon', href: '/images/apple-touch-icon.png' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
                 { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap' }
+            ],
+            meta: [
+                { name: 'geo.region', content: 'NL-NB' },
+                { name: 'geo.placename', content: 'Oss' },
+                { name: 'geo.position', content: '51.7654;5.5176' },
+                { name: 'ICBM', content: '51.7654, 5.5176' },
             ]
         }
+    },
+    pwa: {
+        registerType: 'autoUpdate',
+        manifest: {
+            name: 'NEXTDOOR Interieur Ontwerp',
+            short_name: 'NEXTDOOR',
+            description: 'Allround bureau voor interieurontwerp, interieuradvies en vormgeving, bouwbegeleiding en advies',
+            theme_color: '#cfe0ed',
+            background_color: '#cfe0ed',
+            display: 'standalone',
+            start_url: '/',
+            lang: 'nl',
+            icons: [
+                {
+                    src: '/images/pwa-192x192.png',
+                    sizes: '192x192',
+                    type: 'image/png',
+                },
+                {
+                    src: '/images/pwa-512x512.png',
+                    sizes: '512x512',
+                    type: 'image/png',
+                },
+                {
+                    src: '/images/pwa-512x512.png',
+                    sizes: '512x512',
+                    type: 'image/png',
+                    purpose: 'maskable',
+                },
+            ],
+        },
+        workbox: {
+            navigateFallback: null,
+            globPatterns: ['**/*.{js,css,html,png,svg,ico,woff,woff2}'],
+            maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        },
+        client: {
+            installPrompt: true,
+        },
+        devOptions: {
+            enabled: false,
+        },
     },
     devtools: { enabled: true },
     vite: {
@@ -115,6 +188,16 @@ export default defineNuxtConfig({
                 'lucide-vue-next',
                 '@unhead/schema-org/vue',
             ]
+        },
+        build: {
+            chunkSizeWarningLimit: 4000,
+            modulePreload: false,
+            rollupOptions: {
+                onwarn(warning, warn) {
+                    if (warning.code === 'SOURCEMAP_ERROR') return
+                    warn(warning)
+                }
+            }
         }
     },
     css: ['~/assets/css/main.css'],

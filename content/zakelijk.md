@@ -1,6 +1,10 @@
 ---
-title: Zakelijk
-description: Een overzicht van onze zakelijke projecten.
+title: Zakelijk Interieurontwerp | NEXTDOOR Oss
+description: Bekijk onze zakelijke interieurprojecten. Van kantoorinrichting en kantines tot loungeplekken, flexwerkplekken en vergaderruimtes — professioneel en op maat.
+ogImage:
+  component: Default
+  props:
+    title: Zakelijk Interieurontwerp
 ---
 
 ::page-header

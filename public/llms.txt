@@ -1,0 +1,36 @@
+# NEXTDOOR Interieurontwerp & -advies
+
+> Allround bureau voor interieurontwerp, interieuradvies en vormgeving, bouwbegeleiding en advies voor particulieren en bedrijven in Oss en omgeving (Noord-Brabant, Nederland).
+
+## About
+
+NEXTDOOR is een interieurontwerpbureau gevestigd in Oss, Noord-Brabant. Het bureau biedt een volledig pakket aan diensten op het gebied van interieurontwerp en -advies, zowel voor particulieren als voor zakelijke opdrachtgevers. De aanpak is persoonlijk, praktisch en altijd afgestemd op de wensen en het budget van de klant.
+
+## Services
+
+- Interieurontwerp (particulier & zakelijk)
+- Interieuradvies en kleuradvies
+- Bouwbegeleiding en verbouwadvies
+- 3D-visualisaties en plattegronden
+- Moodboards en materiaaladvies
+- Projectbegeleiding van A tot Z
+
+## Pages
+
+- [Home](https://nextdoorinterieurontwerp.nl/): Overzicht van het bureau, werkwijze en recente projecten.
+- [Particulier](https://nextdoorinterieurontwerp.nl/particulier): Projecten voor particulieren — woonkamers, keukens, badkamers en complete woninginrichtingen.
+- [Zakelijk](https://nextdoorinterieurontwerp.nl/zakelijk): Projecten voor bedrijven — kantoorinrichting, kantines, loungeplekken en vergaderruimtes.
+- [Impressie](https://nextdoorinterieurontwerp.nl/impressie): Impressies en 3D-visualisaties van interieurprojecten.
+- [Contact](https://nextdoorinterieurontwerp.nl/contact): Contactgegevens en contactformulier voor een vrijblijvend gesprek.
+
+## Contact
+
+- Adres: Leonardusstraat 4, 5341 AN Oss, Nederland
+- Telefoon: +31 6 38 89 40 42
+- E-mail: info@nextdoorinterieurontwerp.nl
+- Website: https://nextdoorinterieurontwerp.nl
+- Instagram: https://www.instagram.com/nextdoorinterieurontwerp
+
+## Optional
+
+- [Volledige inhoud (llms-full.txt)](https://nextdoorinterieurontwerp.nl/llms-full.txt)
