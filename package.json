@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.12.0",
+    "@nuxtjs/i18n": "^10.2.3",
+    "@nuxtjs/seo": "^3.4.0",
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.4.2",
+    "nuxt-studio": "^1.4.0"
+  },
+  "devDependencies": {
+    "lucide-vue-next": "^0.577.0",
+    "nuxt-component-meta": "^0.17.2"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.3",
+    "@nuxtjs/mdc": "^0.20.2"
+  }
+}
