@@ -1,25 +1,26 @@
 <template>
   <section class="vertegenwoordiging">
     <div class="container">
-      <h2 class="section-title">NEXTDOOR VERTEGENWOORDIGING</h2>
-      <p class="section-intro">Als allround bureau ontzorgt <strong>Nextdoor Interieurontwerp en -advies</strong> klanten bij het design van exterieur en interieur en ondersteunen we het gehele proces van gemeentelijke vergunningen tot het begeleiden van de aannemers.</p>
-      <p class="section-intro">Bij ons kun je terecht voor een ontwerp en interieuradvies voor nieuw-/verbouw en renovatie van huis, kantoor en bedrijfspand.</p>
+      <h2 class="section-title">{{ $t('vertegenwoordiging.title') }}</h2>
+      <p class="section-intro">{{ $t('vertegenwoordiging.p1') }}</p>
+      <p class="section-intro">{{ $t('vertegenwoordiging.p2') }}</p>
       <div class="team-member">
         <div class="member-photo">
           <img src="/images/home/petra.jpg" alt="Petra Willems - Interieur designer en ontwerper" />
         </div>
         <div class="member-info">
           <p class="member-name">Petra Willems</p>
-          <p class="member-desc"><strong>Petra</strong> is interieur designer en ontwerper. Ze geeft vakkundig advies over vraagstukken omtrent kantoorinrichting, wooninrichting, woondesign, kleur, verlichting en materiaalkeuze.</p>
+          <p class="member-desc">{{ $t('vertegenwoordiging.memberDesc') }}</p>
           <a href="mailto:petra@nextdoorinterieurontwerp.nl" class="btn-orange">
             <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
-            E-MAIL PETRA
+            {{ $t('vertegenwoordiging.emailBtn') }}
           </a>
         </div>
       </div>
     </div>
   </section>
 </template>
+
 <style scoped>
 .vertegenwoordiging {
   padding: 8rem 0;

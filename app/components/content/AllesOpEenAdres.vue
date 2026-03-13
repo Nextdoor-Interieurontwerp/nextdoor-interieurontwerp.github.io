@@ -1,50 +1,50 @@
 <template>
   <section class="alles bg-light">
     <div class="container">
-      <h2 class="section-title">ALLES OP ÉÉN ADRES:</h2>
+      <h2 class="section-title">{{ $t('alles.title') }}</h2>
 
       <div class="logo-center">
         <img src="/images/home/logo-full-dark.svg" alt="NEXTDOOR Interieurontwerp en -advies" />
       </div>
 
-      <p class="alles-desc">Na het interieuradvies kunnen we direct aan de slag met de realisatie en uitvoering van het herinrichten van woning of bedrijfspand. Een groot voordeel, want je hoeft zelf niet op zoek naar aannemers, uitvoerders of andere vakspecialisten. Binnen de kaders van tijd, kwaliteit en budget zijn wij jouw <strong><em>single point of contact</em></strong>, waardoor je volledig ontzorgd wordt.</p>
+      <p class="alles-desc">{{ $t('alles.desc') }}</p>
 
       <div class="services-grid">
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-light.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Ontwerp<br />verlichtingsplan</h3>
+          <h3 v-html="$t('alles.s1').replace('\n', '<br />')"></h3>
         </div>
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-build.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Bouw,<br />Bouwbegeleiding</h3>
+          <h3 v-html="$t('alles.s2').replace('\n', '<br />')"></h3>
         </div>
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-color.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Kleuradvies en<br />sfeervoorstellen</h3>
+          <h3 v-html="$t('alles.s3').replace('\n', '<br />')"></h3>
         </div>
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-coffee.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Meubels en<br />accessoires</h3>
+          <h3 v-html="$t('alles.s4').replace('\n', '<br />')"></h3>
         </div>
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-ruler.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Maatwerk<br />meubilair</h3>
+          <h3 v-html="$t('alles.s5').replace('\n', '<br />')"></h3>
         </div>
         <div class="service">
           <div class="service-icon">
             <img src="/images/home/icon-construction.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Vloeren,<br />wanden en plafonds</h3>
+          <h3 v-html="$t('alles.s6').replace('\n', '<br />')"></h3>
         </div>
       </div>
     </div>

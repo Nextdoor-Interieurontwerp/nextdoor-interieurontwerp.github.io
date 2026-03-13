@@ -7,10 +7,10 @@
 
       <div class="footer-nav-col">
         <ul class="footer-nav">
-          <li><NuxtLink to="/">NEXTDOOR</NuxtLink></li>
-          <li><NuxtLink to="/zakelijk">ZAKELIJK</NuxtLink></li>
-          <li><NuxtLink to="/particulier">PARTICULIER</NuxtLink></li>
-          <li><NuxtLink to="/contact">CONTACT</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/')">NEXTDOOR</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/zakelijk')">{{ $t('nav.business') }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/particulier')">{{ $t('nav.residential') }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/contact')">{{ $t('nav.contact') }}</NuxtLink></li>
         </ul>
       </div>
 
@@ -36,16 +36,20 @@
       <div class="container footer-bottom-inner">
         <p>&copy; {{ new Date().getFullYear() }} NEXTDOOR interieurontwerp en -advies &nbsp;|&nbsp; KvK 75743914</p>
         <p class="footer-legal">
-          <NuxtLink to="/impressie">Impressie</NuxtLink>
+          <NuxtLink :to="localePath('/impressie')">{{ $t('footer.legal') }}</NuxtLink>
           &nbsp;|&nbsp;
-          <NuxtLink to="/algemene-voorwaarden">Algemene voorwaarden</NuxtLink>
+          <NuxtLink :to="localePath('/algemene-voorwaarden')">{{ $t('footer.terms') }}</NuxtLink>
           &nbsp;|&nbsp;
-          <NuxtLink to="/privacyverklaring">Privacyverklaring</NuxtLink>
+          <NuxtLink :to="localePath('/privacyverklaring')">{{ $t('footer.privacy') }}</NuxtLink>
         </p>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
 
 <style scoped>
 .footer {

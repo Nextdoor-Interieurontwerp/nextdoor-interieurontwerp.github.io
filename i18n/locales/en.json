@@ -1,1 +1,86 @@
-{}
+{
+  "nav": {
+    "home": "NEXTDOOR",
+    "business": "BUSINESS",
+    "residential": "RESIDENTIAL",
+    "contact": "CONTACT"
+  },
+  "header": {
+    "menuToggle": "Open or close menu"
+  },
+  "footer": {
+    "legal": "Impression",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "intro": {
+    "tagline": "Unity, space and warmth",
+    "heading": "Created by experienced and skilled interior designers and architects",
+    "p1": "NEXTDOOR is a full-service agency for interior design, interior advice and styling, construction supervision and consultancy for the business and residential market. In collaboration with experienced interior designers, architects and an interior architect, we create new home interiors, office interiors and interior design.",
+    "p2": "Interior and design for homes, offices, restaurants or retail spaces: we provide unity, space and warmth. We translate your wishes into a fitting interior design, including colour advice and a lighting plan. This way we create a workplace or living environment where you always feel at ease.",
+    "imgAlt": "Atmospheric living room - NEXTDOOR interior design"
+  },
+  "onsWerk": {
+    "title": "OUR WORK",
+    "sub": "A selection of recent projects. View the full portfolio",
+    "business": "business",
+    "residential": "residential",
+    "and": "and"
+  },
+  "werkwijze": {
+    "title": "OUR APPROACH",
+    "subBold": "Good interior advice starts with a good conversation",
+    "desc": "By listening carefully and asking the right questions, we gather as much information as possible, gauge your wishes, assess how the space will be used and get an impression of the natural light and acoustics. The interior design is then developed. The floor plan, 3D visualisation, drawings, colour advice and general tips are compiled into a beautiful presentation folder delivered to your home.",
+    "step1Title": "Introduction\nand orientation",
+    "step1Desc": "When setting up a new (office) interior or moving, many questions arise. Good interior advice starts with a good conversation. Together we take the first step.",
+    "step2Title": "Interior design\nand advice",
+    "step2Desc": "Developing ideas and layout. Mood proposals, 2D/3D design drawings, lighting plan, acoustics, colour advice and budget.",
+    "step3Title": "Execution\nand realisation",
+    "step3Desc": "Once the plans are finalised, we can get straight to work. Organising this process is our daily business. Our specialists know what, when and how everything needs to happen.",
+    "cta": "VIEW THE PRESENTATION"
+  },
+  "alles": {
+    "title": "ALL UNDER ONE ROOF:",
+    "desc": "After the interior advice, we can immediately start with the realisation and execution of the redesign of your home or business premises. A great advantage, as you don't need to search for contractors, executors or other specialists yourself. Within the framework of time, quality and budget, we are your single point of contact, so you are completely taken care of.",
+    "s1": "Lighting\ndesign plan",
+    "s2": "Construction,\nconstruction supervision",
+    "s3": "Colour advice and\nmood proposals",
+    "s4": "Furniture and\naccessories",
+    "s5": "Custom-made\nfurniture",
+    "s6": "Floors,\nwalls and ceilings"
+  },
+  "vertegenwoordiging": {
+    "title": "NEXTDOOR REPRESENTATION",
+    "p1": "As a full-service agency, Nextdoor Interior Design and Advice relieves clients of all concerns regarding exterior and interior design, and supports the entire process from municipal permits to supervising contractors.",
+    "p2": "We are your go-to for design and interior advice for new builds, renovations and refurbishments of homes, offices and business premises.",
+    "memberDesc": "Petra is an interior designer and stylist. She provides expert advice on questions regarding office interiors, home interiors, residential design, colour, lighting and material selection.",
+    "emailBtn": "EMAIL PETRA"
+  },
+  "projectGrid": {
+    "viewProject": "View project",
+    "closeLabel": "Close",
+    "location": "Location:",
+    "services": "Services:",
+    "ariaLabel": "View project: {title}"
+  },
+  "impressie": {
+    "tagline": "Harmony with colourful details",
+    "heading": "NEW-BUILD HOME with modern, sleek furnishings and colourful accents!",
+    "p1": "Pim and Lisanne bought a new-build home in Houten and wanted to combine calm influences with colourful accents. Their 6-year-old daughter loves yellow and their 8-year-old son prefers blue. For the master bedroom and shared spaces, warm, natural colours were chosen, while the children's rooms feature more colourful combinations and accessories.",
+    "p2": "Taking your wishes and the people who use the space into account, we put ideas together. The interior design, floor plan, 3D visualisation, drawings, colour advice and general tips are compiled into a beautiful presentation folder delivered to your home. The example below is for illustration purposes only and no rights can be derived from it.",
+    "kamersTitle": "ROOM IMPRESSIONS",
+    "bovenaanzichtenTitle": "FLOOR PLANS",
+    "impressieTitle": "IMPRESSION",
+    "cap1": "Living room impression",
+    "cap2": "Children's rooms impression",
+    "cap3": "Attic floor impression",
+    "cap4": "Top view ground floor",
+    "cap5": "Top view first floor",
+    "cap6": "Top view attic floor",
+    "cap7": "Lighting plan",
+    "cap8": "Lighting plan",
+    "cap9": "Second floor plan",
+    "cap10": "Custom furniture",
+    "cap11": "Colour chart"
+  }
+}

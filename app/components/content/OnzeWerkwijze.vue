@@ -1,9 +1,9 @@
 <template>
   <section class="werkwijze bg-blue">
     <div class="container">
-      <h2 class="section-title">ONZE WERKWIJZE</h2>
-      <p class="section-sub-bold">Een goed interieuradvies begint bij een goed gesprek</p>
-      <p class="section-desc">Door goed te luisteren en de juiste vragen te stellen doen we zoveel mogelijk informatie op, polsen we je wensen, inventariseren we het gebruik van de ruimte en krijgen we een indruk van de lichtinval en akoestiek. Het interieurontwerp wordt vervolgens uitgewerkt. De plattegrond, 3D-visualisatie, tekeningen, het kleuradvies en algemene tips worden samengevoegd in een prachtige presentatiemap die je thuis ontvangt.</p>
+      <h2 class="section-title">{{ $t('werkwijze.title') }}</h2>
+      <p class="section-sub-bold">{{ $t('werkwijze.subBold') }}</p>
+      <p class="section-desc">{{ $t('werkwijze.desc') }}</p>
 
       <div class="presentatieboek">
         <img src="/images/home/presentatieboek.png" alt="NEXTDOOR interieurontwerp presentatieboek" />
@@ -14,31 +14,35 @@
           <div class="step-icon">
             <img src="/images/home/icon-coffee.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Kennismaking<br />en oriëntatie</h3>
-          <p>Bij een nieuwe (kantoor)inrichting of verhuizing komen er veel vragen op je af. Een goed interieuradvies begint bij een goed gesprek. Samen maken we de eerste stap.</p>
+          <h3 v-html="$t('werkwijze.step1Title').replace('\n', '<br />')"></h3>
+          <p>{{ $t('werkwijze.step1Desc') }}</p>
         </div>
         <div class="step">
           <div class="step-icon">
             <img src="/images/home/icon-ruler.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Interieurontwerp<br />en -advies</h3>
-          <p>Uitwerken van ideeën en indeling. Sfeervoorstellen, 2D/3D ontwerp tekeningen, verlichtingsplan, akoestiek, kleuradvies en begroting.</p>
+          <h3 v-html="$t('werkwijze.step2Title').replace('\n', '<br />')"></h3>
+          <p>{{ $t('werkwijze.step2Desc') }}</p>
         </div>
         <div class="step">
           <div class="step-icon">
             <img src="/images/home/icon-construction.svg" alt="" aria-hidden="true" />
           </div>
-          <h3>Uitvoering<br />en realisatie</h3>
-          <p>Na afronding van de plannen kunnen we direct aan de slag. Het organiseren van dit traject is ons dagelijks werk. Onze specialisten weten wat, wanneer en hoe alles moet gebeuren.</p>
+          <h3 v-html="$t('werkwijze.step3Title').replace('\n', '<br />')"></h3>
+          <p>{{ $t('werkwijze.step3Desc') }}</p>
         </div>
       </div>
 
       <div class="werkwijze-cta">
-        <NuxtLink to="/impressie" class="btn-orange">NAAR DE PRESENTATIE</NuxtLink>
+        <NuxtLink :to="localePath('/impressie')" class="btn-orange">{{ $t('werkwijze.cta') }}</NuxtLink>
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
 
 <style scoped>
 .werkwijze {

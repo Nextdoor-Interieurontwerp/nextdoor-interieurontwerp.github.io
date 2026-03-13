@@ -34,7 +34,7 @@ onUnmounted(() => {
         class="project-item"
         @click="openLightbox(project)"
         role="button"
-        :aria-label="`Bekijk project: ${project.title}`"
+        :aria-label="$t('projectGrid.ariaLabel', { title: project.title })"
         tabindex="0"
         @keydown.enter="openLightbox(project)"
       >
@@ -42,7 +42,7 @@ onUnmounted(() => {
           <img :src="project.image" :alt="project.title" loading="lazy" />
           <div class="hover-overlay">
             <h3>{{ project.title }}</h3>
-            <span class="btn-view">Bekijk project</span>
+            <span class="btn-view">{{ $t('projectGrid.viewProject') }}</span>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ onUnmounted(() => {
     <Transition name="fade">
       <div v-if="selectedProject" class="lightbox-overlay" @click.self="closeLightbox">
         <div class="lightbox-content">
-          <button class="close-btn" @click="closeLightbox" aria-label="Sluiten">&times;</button>
+          <button class="close-btn" @click="closeLightbox" :aria-label="$t('projectGrid.closeLabel')">&times;</button>
           <div class="lightbox-grid">
             <div class="lightbox-image">
               <img :src="selectedProject.image" :alt="selectedProject.title" />
@@ -61,8 +61,8 @@ onUnmounted(() => {
               <h2>{{ selectedProject.title }}</h2>
               <p class="project-desc">{{ selectedProject.description }}</p>
               <div v-if="selectedProject.location || selectedProject.services" class="project-meta">
-                <p v-if="selectedProject.location"><strong>Locatie:</strong> {{ selectedProject.location }}</p>
-                <p v-if="selectedProject.services"><strong>Werkzaamheden:</strong> {{ selectedProject.services }}</p>
+                <p v-if="selectedProject.location"><strong>{{ $t('projectGrid.location') }}</strong> {{ selectedProject.location }}</p>
+                <p v-if="selectedProject.services"><strong>{{ $t('projectGrid.services') }}</strong> {{ selectedProject.services }}</p>
               </div>
               <div class="tags">
                 <span v-for="tag in selectedProject.tags" :key="tag" class="tag">#{{ tag }}</span>

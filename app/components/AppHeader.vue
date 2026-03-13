@@ -1,15 +1,19 @@
 <script setup lang="ts">
 const localePath = useLocalePath()
+const { locale, locales, setLocale } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
 
-const navigation = [
-  { name: 'NEXTDOOR', path: '/' },
-  { name: 'ZAKELIJK', path: '/zakelijk' },
-  { name: 'PARTICULIER', path: '/particulier' },
-  { name: 'CONTACT', path: '/contact' }
-]
+const navigation = computed(() => [
+  { key: 'nav.home', path: '/' },
+  { key: 'nav.business', path: '/zakelijk' },
+  { key: 'nav.residential', path: '/particulier' },
+  { key: 'nav.contact', path: '/contact' }
+])
 
 const isMenuOpen = ref(false)
 const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
+
+const otherLocale = computed(() => locales.value.find(l => l.code !== locale.value))
 </script>
 
 <template>
@@ -36,6 +40,9 @@ const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             info@nextdoorinterieurontwerp.nl
           </a>
+          <NuxtLink v-if="otherLocale" :to="switchLocalePath(otherLocale.code)" class="lang-switch" :aria-label="`Switch to ${otherLocale.name}`">
+            {{ otherLocale.code.toUpperCase() }}
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -50,13 +57,13 @@ const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
           <ul>
             <li v-for="item in navigation" :key="item.path">
               <NuxtLink :to="localePath(item.path)" active-class="active">
-                {{ item.name }}
+                {{ $t(item.key) }}
               </NuxtLink>
             </li>
           </ul>
         </nav>
 
-        <button class="mobile-toggle" @click="toggleMenu" :aria-expanded="isMenuOpen" aria-label="Menu openen of sluiten">
+        <button class="mobile-toggle" @click="toggleMenu" :aria-expanded="isMenuOpen" :aria-label="$t('header.menuToggle')">
           <span :class="{ open: isMenuOpen }"></span>
         </button>
       </div>
@@ -67,7 +74,12 @@ const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
         <ul>
           <li v-for="item in navigation" :key="item.path" @click="isMenuOpen = false">
             <NuxtLink :to="localePath(item.path)" active-class="active">
-              {{ item.name }}
+              {{ $t(item.key) }}
+            </NuxtLink>
+          </li>
+          <li v-if="otherLocale" @click="isMenuOpen = false">
+            <NuxtLink :to="switchLocalePath(otherLocale.code)" class="lang-switch-mobile">
+              {{ otherLocale.name }}
             </NuxtLink>
           </li>
         </ul>
@@ -122,6 +134,22 @@ const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+.lang-switch {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 0.2rem 0.8rem;
+  border-radius: 3px;
+  color: rgba(255,255,255,0.85) !important;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.lang-switch:hover {
+  border-color: white;
+  color: white !important;
 }
 
 /* Main header */
@@ -249,6 +277,11 @@ const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
 .mobile-nav a.active {
   color: rgba(255,255,255,0.7);
   opacity: 1;
+}
+
+.lang-switch-mobile {
+  font-size: 2rem !important;
+  opacity: 0.7;
 }
 
 @media (max-width: 900px) {

@@ -2,13 +2,13 @@
   <section class="intro-section bg-blue">
     <div class="container intro-inner">
       <div class="intro-image">
-        <img src="/images/home/intro-living.jpg" alt="Sfeervolle woonkamer - NEXTDOOR interieurontwerp" />
+        <img src="/images/home/intro-living.jpg" :alt="$t('intro.imgAlt')" />
       </div>
       <div class="intro-text">
-        <p class="cursive">Eenheid ruimte en warmte</p>
-        <h2>Gecreëerd door ervaren en bedreven interieurontwerpers en – architecten</h2>
-        <p>NEXTDOOR is een allround bureau voor interieurontwerp, interieuradvies en vormgeving, bouwbegeleiding en advies aan de zakelijke en particuliere markt. In samenwerking met ervaren interieurontwerpers, architecten en een interieurarchitect creëren wij nieuwe woninginrichting, kantoorinrichting en interieurdesign.</p>
-        <p>Interieur en ontwerp van huis, kantoor, restaurant of winkelpand: wij zorgen voor eenheid, ruimte en warmte. We vertalen jouw wensen naar een passend interieurontwerp waarbij ook is gedacht aan kleuradvies en een verlichtingsplan. Zo realiseren we een werkplek of woonomgeving waar je je altijd prettig voelt.</p>
+        <p class="cursive">{{ $t('intro.tagline') }}</p>
+        <h2>{{ $t('intro.heading') }}</h2>
+        <p>{{ $t('intro.p1') }}</p>
+        <p>{{ $t('intro.p2') }}</p>
       </div>
     </div>
   </section>

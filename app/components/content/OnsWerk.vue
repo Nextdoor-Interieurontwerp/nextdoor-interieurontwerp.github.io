@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { projects } from '~/data/projects'
 
+const localePath = useLocalePath()
+
 // Show a selection of projects on the homepage (mix of both categories)
 const featured = projects.slice(0, 6)
 </script>
@@ -8,8 +10,8 @@ const featured = projects.slice(0, 6)
 <template>
   <section class="ons-werk bg-white">
     <div class="container">
-      <h2 class="section-title">ONS WERK</h2>
-      <p class="section-sub">Enkele voorbeelden van recente projecten. Bekijk het volledige portfolio <NuxtLink to="/zakelijk">zakelijk</NuxtLink> en <NuxtLink to="/particulier">particulier</NuxtLink></p>
+      <h2 class="section-title">{{ $t('onsWerk.title') }}</h2>
+      <p class="section-sub">{{ $t('onsWerk.sub') }} <NuxtLink :to="localePath('/zakelijk')">{{ $t('onsWerk.business') }}</NuxtLink> {{ $t('onsWerk.and') }} <NuxtLink :to="localePath('/particulier')">{{ $t('onsWerk.residential') }}</NuxtLink></p>
       <div class="werk-grid">
         <div v-for="project in featured" :key="project.id" class="werk-item">
           <img :src="project.image" :alt="project.title" loading="lazy" />

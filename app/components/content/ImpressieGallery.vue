@@ -12,29 +12,29 @@
         <img src="/images/impressie/PRESENTATIE_intro_afbeelding.jpg" alt="Presentatie voorbeeld" />
       </div>
       <div class="intro-text">
-        <p class="cursive-tagline">Harmonie met kleurrijke details</p>
-        <h2>NIEUWBOUWHUIS met moderne, strakke inrichting en kleurrijke accenten!</h2>
-        <p>Pim en Lisanne kochten een nieuwbouwhuis in Houten en wilden hiervoor graag rustige invloeden combineren met kleurrijke accenten. Hun dochter van 6 houdt van geel en zoonlief van 8 wil liever blauw. Voor de ouderslaapkamer en gezamenlijke ruimtes is gekozen voor warme, natuurlijke kleuren, terwijl de kinderkamers van wat meer kleurrijke combinaties en accessoires voorzien zijn.</p>
-        <p>Rekening houdend met je wensen en de personen die de ruimte gebruiken, zetten wij ideeën op een rij. Het interieurontwerp, de plattegrond, 3D-visualisatie, tekeningen, kleuradvies en algemene tips worden samengevoegd in een prachtige presentatiemap die je thuis ontvangt. Hieronder een voorbeeld van de inhoud van deze map. Aan dit voorbeeld kunnen geen rechten worden ontleend.</p>
+        <p class="cursive-tagline">{{ $t('impressie.tagline') }}</p>
+        <h2>{{ $t('impressie.heading') }}</h2>
+        <p>{{ $t('impressie.p1') }}</p>
+        <p>{{ $t('impressie.p2') }}</p>
       </div>
     </section>
 
     <!-- Impressie Kamers -->
     <section class="impressie-section bg-light">
       <div class="container">
-        <h2 class="section-title">IMPRESSIE KAMERS</h2>
+        <h2 class="section-title">{{ $t('impressie.kamersTitle') }}</h2>
         <div class="gallery-single">
           <figure>
-            <img src="/images/impressie/presentatie-2.jpg" alt="Impressie woonkamer" loading="lazy" />
-            <figcaption>Impressie woonkamer</figcaption>
+            <img src="/images/impressie/presentatie-2.jpg" :alt="$t('impressie.cap1')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap1') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-3.jpg" alt="Impressie kinderkamers" loading="lazy" />
-            <figcaption>Impressie kinderkamers</figcaption>
+            <img src="/images/impressie/presentatie-3.jpg" :alt="$t('impressie.cap2')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap2') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-4.jpg" alt="Impressie zolderetage" loading="lazy" />
-            <figcaption>Impressie zolderetage</figcaption>
+            <img src="/images/impressie/presentatie-4.jpg" :alt="$t('impressie.cap3')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap3') }}</figcaption>
           </figure>
         </div>
       </div>
@@ -43,23 +43,23 @@
     <!-- Bovenaanzichten -->
     <section class="impressie-section bg-blue">
       <div class="container">
-        <h2 class="section-title">BOVENAANZICHTEN</h2>
+        <h2 class="section-title">{{ $t('impressie.bovenaanzichtenTitle') }}</h2>
         <div class="gallery-grid">
           <figure>
-            <img src="/images/impressie/presentatie-6.jpg" alt="Bovenaanzicht benedenverdieping / begane grond" loading="lazy" />
-            <figcaption>Bovenaanzicht benedenverdieping / begane grond</figcaption>
+            <img src="/images/impressie/presentatie-6.jpg" :alt="$t('impressie.cap4')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap4') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-7.jpg" alt="Bovenaanzicht eerste verdieping" loading="lazy" />
-            <figcaption>Bovenaanzicht eerste verdieping</figcaption>
+            <img src="/images/impressie/presentatie-7.jpg" :alt="$t('impressie.cap5')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap5') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-8.jpg" alt="Bovenaanzicht zolderverdieping" loading="lazy" />
-            <figcaption>Bovenaanzicht zolderverdieping</figcaption>
+            <img src="/images/impressie/presentatie-8.jpg" :alt="$t('impressie.cap6')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap6') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-9.jpg" alt="Verlichtingsplan / lichtplan" loading="lazy" />
-            <figcaption>Verlichtingsplan / lichtplan</figcaption>
+            <img src="/images/impressie/presentatie-9.jpg" :alt="$t('impressie.cap7')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap7') }}</figcaption>
           </figure>
         </div>
       </div>
@@ -68,23 +68,23 @@
     <!-- Impressie gallery -->
     <section class="impressie-section bg-light">
       <div class="container">
-        <h2 class="section-title">IMPRESSIE</h2>
+        <h2 class="section-title">{{ $t('impressie.impressieTitle') }}</h2>
         <div class="gallery-grid">
           <figure>
-            <img src="/images/impressie/presentatie-10.jpg" alt="Verlichtingsplan" loading="lazy" />
-            <figcaption>Verlichtingsplan</figcaption>
+            <img src="/images/impressie/presentatie-10.jpg" :alt="$t('impressie.cap8')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap8') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-11.jpg" alt="Plattegrond tweede verdieping" loading="lazy" />
-            <figcaption>Plattegrond tweede verdieping</figcaption>
+            <img src="/images/impressie/presentatie-11.jpg" :alt="$t('impressie.cap9')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap9') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-12.jpg" alt="Meubels op maat" loading="lazy" />
-            <figcaption>Meubels op maat</figcaption>
+            <img src="/images/impressie/presentatie-12.jpg" :alt="$t('impressie.cap10')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap10') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-13.jpg" alt="Kleurkaart" loading="lazy" />
-            <figcaption>Kleurkaart</figcaption>
+            <img src="/images/impressie/presentatie-13.jpg" :alt="$t('impressie.cap11')" loading="lazy" />
+            <figcaption>{{ $t('impressie.cap11') }}</figcaption>
           </figure>
         </div>
       </div>

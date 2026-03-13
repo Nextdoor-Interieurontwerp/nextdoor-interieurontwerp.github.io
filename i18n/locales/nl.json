@@ -1,1 +1,86 @@
-{}
+{
+  "nav": {
+    "home": "NEXTDOOR",
+    "business": "ZAKELIJK",
+    "residential": "PARTICULIER",
+    "contact": "CONTACT"
+  },
+  "header": {
+    "menuToggle": "Menu openen of sluiten"
+  },
+  "footer": {
+    "legal": "Impressie",
+    "terms": "Algemene voorwaarden",
+    "privacy": "Privacyverklaring"
+  },
+  "intro": {
+    "tagline": "Eenheid ruimte en warmte",
+    "heading": "Gecreëerd door ervaren en bedreven interieurontwerpers en – architecten",
+    "p1": "NEXTDOOR is een allround bureau voor interieurontwerp, interieuradvies en vormgeving, bouwbegeleiding en advies aan de zakelijke en particuliere markt. In samenwerking met ervaren interieurontwerpers, architecten en een interieurarchitect creëren wij nieuwe woninginrichting, kantoorinrichting en interieurdesign.",
+    "p2": "Interieur en ontwerp van huis, kantoor, restaurant of winkelpand: wij zorgen voor eenheid, ruimte en warmte. We vertalen jouw wensen naar een passend interieurontwerp waarbij ook is gedacht aan kleuradvies en een verlichtingsplan. Zo realiseren we een werkplek of woonomgeving waar je je altijd prettig voelt.",
+    "imgAlt": "Sfeervolle woonkamer - NEXTDOOR interieurontwerp"
+  },
+  "onsWerk": {
+    "title": "ONS WERK",
+    "sub": "Enkele voorbeelden van recente projecten. Bekijk het volledige portfolio",
+    "business": "zakelijk",
+    "residential": "particulier",
+    "and": "en"
+  },
+  "werkwijze": {
+    "title": "ONZE WERKWIJZE",
+    "subBold": "Een goed interieuradvies begint bij een goed gesprek",
+    "desc": "Door goed te luisteren en de juiste vragen te stellen doen we zoveel mogelijk informatie op, polsen we je wensen, inventariseren we het gebruik van de ruimte en krijgen we een indruk van de lichtinval en akoestiek. Het interieurontwerp wordt vervolgens uitgewerkt. De plattegrond, 3D-visualisatie, tekeningen, het kleuradvies en algemene tips worden samengevoegd in een prachtige presentatiemap die je thuis ontvangt.",
+    "step1Title": "Kennismaking\nen oriëntatie",
+    "step1Desc": "Bij een nieuwe (kantoor)inrichting of verhuizing komen er veel vragen op je af. Een goed interieuradvies begint bij een goed gesprek. Samen maken we de eerste stap.",
+    "step2Title": "Interieurontwerp\nen -advies",
+    "step2Desc": "Uitwerken van ideeën en indeling. Sfeervoorstellen, 2D/3D ontwerp tekeningen, verlichtingsplan, akoestiek, kleuradvies en begroting.",
+    "step3Title": "Uitvoering\nen realisatie",
+    "step3Desc": "Na afronding van de plannen kunnen we direct aan de slag. Het organiseren van dit traject is ons dagelijks werk. Onze specialisten weten wat, wanneer en hoe alles moet gebeuren.",
+    "cta": "NAAR DE PRESENTATIE"
+  },
+  "alles": {
+    "title": "ALLES OP ÉÉN ADRES:",
+    "desc": "Na het interieuradvies kunnen we direct aan de slag met de realisatie en uitvoering van het herinrichten van woning of bedrijfspand. Een groot voordeel, want je hoeft zelf niet op zoek naar aannemers, uitvoerders of andere vakspecialisten. Binnen de kaders van tijd, kwaliteit en budget zijn wij jouw single point of contact, waardoor je volledig ontzorgd wordt.",
+    "s1": "Ontwerp\nverlichtingsplan",
+    "s2": "Bouw,\nBouwbegeleiding",
+    "s3": "Kleuradvies en\nsfeervoorstellen",
+    "s4": "Meubels en\naccessoires",
+    "s5": "Maatwerk\nmeubilair",
+    "s6": "Vloeren,\nwanden en plafonds"
+  },
+  "vertegenwoordiging": {
+    "title": "NEXTDOOR VERTEGENWOORDIGING",
+    "p1": "Als allround bureau ontzorgt Nextdoor Interieurontwerp en -advies klanten bij het design van exterieur en interieur en ondersteunen we het gehele proces van gemeentelijke vergunningen tot het begeleiden van de aannemers.",
+    "p2": "Bij ons kun je terecht voor een ontwerp en interieuradvies voor nieuw-/verbouw en renovatie van huis, kantoor en bedrijfspand.",
+    "memberDesc": "Petra is interieur designer en ontwerper. Ze geeft vakkundig advies over vraagstukken omtrent kantoorinrichting, wooninrichting, woondesign, kleur, verlichting en materiaalkeuze.",
+    "emailBtn": "E-MAIL PETRA"
+  },
+  "projectGrid": {
+    "viewProject": "Bekijk project",
+    "closeLabel": "Sluiten",
+    "location": "Locatie:",
+    "services": "Werkzaamheden:",
+    "ariaLabel": "Bekijk project: {title}"
+  },
+  "impressie": {
+    "tagline": "Harmonie met kleurrijke details",
+    "heading": "NIEUWBOUWHUIS met moderne, strakke inrichting en kleurrijke accenten!",
+    "p1": "Pim en Lisanne kochten een nieuwbouwhuis in Houten en wilden hiervoor graag rustige invloeden combineren met kleurrijke accenten. Hun dochter van 6 houdt van geel en zoonlief van 8 wil liever blauw. Voor de ouderslaapkamer en gezamenlijke ruimtes is gekozen voor warme, natuurlijke kleuren, terwijl de kinderkamers van wat meer kleurrijke combinaties en accessoires voorzien zijn.",
+    "p2": "Rekening houdend met je wensen en de personen die de ruimte gebruiken, zetten wij ideeën op een rij. Het interieurontwerp, de plattegrond, 3D-visualisatie, tekeningen, kleuradvies en algemene tips worden samengevoegd in een prachtige presentatiemap die je thuis ontvangt. Hieronder een voorbeeld van de inhoud van deze map. Aan dit voorbeeld kunnen geen rechten worden ontleend.",
+    "kamersTitle": "IMPRESSIE KAMERS",
+    "bovenaanzichtenTitle": "BOVENAANZICHTEN",
+    "impressieTitle": "IMPRESSIE",
+    "cap1": "Impressie woonkamer",
+    "cap2": "Impressie kinderkamers",
+    "cap3": "Impressie zolderetage",
+    "cap4": "Bovenaanzicht benedenverdieping / begane grond",
+    "cap5": "Bovenaanzicht eerste verdieping",
+    "cap6": "Bovenaanzicht zolderverdieping",
+    "cap7": "Verlichtingsplan / lichtplan",
+    "cap8": "Verlichtingsplan",
+    "cap9": "Plattegrond tweede verdieping",
+    "cap10": "Meubels op maat",
+    "cap11": "Kleurkaart"
+  }
+}
