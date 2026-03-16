@@ -49,7 +49,7 @@ const featured = projects.slice(0, 6)
 .werk-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0;
+  gap: 2px;
 }
 
 .werk-item {
