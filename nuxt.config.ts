@@ -96,6 +96,7 @@ export default defineNuxtConfig({
         defaultLocale: 'nl',
         strategy: 'prefix_except_default',
         detectBrowserLanguage: false,
+        lazy: true,
         baseUrl: 'https://nextdoorinterieurontwerp.nl'
     },
     robots: {
@@ -169,8 +170,9 @@ export default defineNuxtConfig({
             ],
         },
         workbox: {
-            navigateFallback: '/offline',
             globPatterns: ['**/*.{js,css,html,png,svg,ico,woff,woff2}'],
+            globIgnores: ['**/locales/**'],
+            navigateFallback: null,
             maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
             runtimeCaching: [
                 {
