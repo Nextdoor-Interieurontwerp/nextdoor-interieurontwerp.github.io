@@ -4,7 +4,7 @@
       <h2 class="section-title">{{ $t('alles.title') }}</h2>
 
       <div class="logo-center">
-        <img src="/images/home/logo-full-dark.svg" alt="NEXTDOOR Interieurontwerp en -advies" />
+        <img src="/images/home/logo-full-dark.svg" alt="NEXTDOOR Interieurontwerp en -advies" width="656" height="194" />
       </div>
 
       <p class="alles-desc">{{ $t('alles.desc') }}</p>

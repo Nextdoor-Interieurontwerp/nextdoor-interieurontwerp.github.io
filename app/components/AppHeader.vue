@@ -50,7 +50,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
     <div class="header-main">
       <div class="container header-inner">
         <NuxtLink :to="localePath('/')" class="logo" aria-label="NEXTDOOR Interieurontwerp - Home">
-          <img src="/images/home/logo-full.svg" alt="NEXTDOOR Interieurontwerp en -advies" />
+          <img src="/images/home/logo-full.svg" alt="NEXTDOOR Interieurontwerp en -advies" width="656" height="194" />
         </NuxtLink>
 
         <nav class="desktop-nav" aria-label="Hoofdnavigatie">
@@ -118,7 +118,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
 
 .top-bar-left a,
 .top-bar-right a {
-  color: rgba(255,255,255,0.85);
+  color: white;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -143,7 +143,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
   border: 1px solid rgba(255,255,255,0.5);
   padding: 0.2rem 0.8rem;
   border-radius: 3px;
-  color: rgba(255,255,255,0.85) !important;
+  color: white !important;
   transition: border-color 0.2s, color 0.2s;
 }
 
@@ -275,7 +275,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
 
 .mobile-nav a:hover,
 .mobile-nav a.active {
-  color: rgba(255,255,255,0.7);
+  color: white;
   opacity: 1;
 }
 

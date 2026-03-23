@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-brand">
-        <img src="/images/home/logo-full.svg" alt="NEXTDOOR Interieurontwerp" class="footer-logo" />
+        <img src="/images/home/logo-full.svg" alt="NEXTDOOR Interieurontwerp" class="footer-logo" width="656" height="194" />
       </div>
 
       <div class="footer-nav-col">
@@ -84,7 +84,7 @@ const localePath = useLocalePath()
 }
 
 .footer-nav a {
-  color: rgba(255,255,255,0.85);
+  color: white;
   font-weight: 600;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -98,12 +98,12 @@ const localePath = useLocalePath()
 
 .footer-contact-col p {
   font-size: 1.4rem;
-  color: rgba(255,255,255,0.85);
+  color: white;
   margin-bottom: 0.8rem;
 }
 
 .footer-contact-col a {
-  color: rgba(255,255,255,0.85);
+  color: white;
 }
 
 .footer-contact-col a:hover {
@@ -118,7 +118,7 @@ const localePath = useLocalePath()
 }
 
 .footer-social a {
-  color: rgba(255,255,255,0.85);
+  color: white;
   display: flex;
   align-items: center;
 }
@@ -135,7 +135,7 @@ const localePath = useLocalePath()
 
 .footer-bottom-inner p {
   font-size: 1.2rem;
-  color: rgba(255,255,255,0.6);
+  color: white;
   margin: 0;
   text-align: center;
 }
@@ -145,7 +145,7 @@ const localePath = useLocalePath()
 }
 
 .footer-legal a {
-  color: rgba(255,255,255,0.6);
+  color: white;
 }
 
 .footer-legal a:hover {

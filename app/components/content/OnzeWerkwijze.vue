@@ -6,7 +6,7 @@
       <p class="section-desc">{{ $t('werkwijze.desc') }}</p>
 
       <div class="presentatieboek">
-        <img src="/images/home/presentatieboek.webp" alt="NEXTDOOR interieurontwerp presentatieboek" />
+        <img src="/images/home/presentatieboek.webp" alt="NEXTDOOR interieurontwerp presentatieboek" width="1200" height="350" />
       </div>
 
       <div class="steps-grid">
