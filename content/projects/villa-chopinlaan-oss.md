@@ -1,7 +1,7 @@
 ---
 id: 10
 slug: villa-chopinlaan-oss
-image: /images/projects/NextDoor29032023ZA-47.jpg
+image: /images/projects/NextDoor29032023ZA-47.webp
 translations:
   nl:
     title: Villa Chopinlaan Oss

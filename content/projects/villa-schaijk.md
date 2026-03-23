@@ -1,7 +1,7 @@
 ---
 id: 19
 slug: villa-schaijk
-image: /images/projects/Nextdoor_interieurontwerp_fam_vanderblij_2.jpg
+image: /images/projects/Nextdoor_interieurontwerp_fam_vanderblij_2.webp
 translations:
   nl:
     title: Villa Schaijk

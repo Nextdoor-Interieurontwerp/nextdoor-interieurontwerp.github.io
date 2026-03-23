@@ -1,7 +1,7 @@
 ---
 id: 16
 slug: bungalow-oss
-image: /images/projects/Nextdoor_interieurontwerp_fam_hendriks_36.jpg
+image: /images/projects/Nextdoor_interieurontwerp_fam_hendriks_36.webp
 translations:
   nl:
     title: Bungalow Oss

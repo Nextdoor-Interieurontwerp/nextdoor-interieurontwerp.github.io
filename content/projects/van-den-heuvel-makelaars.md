@@ -1,7 +1,7 @@
 ---
 id: 9
 slug: van-den-heuvel-makelaars
-image: /images/projects/Nextdoor_vandenheuvelmakelaars_1515.jpg
+image: /images/projects/Nextdoor_vandenheuvelmakelaars_1515.webp
 translations:
   nl:
     title: Van den Heuvel Makelaars

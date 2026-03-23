@@ -1,7 +1,7 @@
 ---
 id: 8
 slug: noorderhuis-noorderloos
-image: /images/projects/Nextdoor_Noorderhuis_foto-1-5.jpg
+image: /images/projects/Nextdoor_Noorderhuis_foto-1-5.webp
 translations:
   nl:
     title: Noorderhuis, Noordeloos

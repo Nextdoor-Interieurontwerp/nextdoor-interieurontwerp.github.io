@@ -1,7 +1,7 @@
 ---
 id: 11
 slug: woonhuis-doelenstraat-oss
-image: /images/projects/NextDoor05102022ZA-88.jpg
+image: /images/projects/NextDoor05102022ZA-88.webp
 translations:
   nl:
     title: Woonhuis Doelenstraat Oss

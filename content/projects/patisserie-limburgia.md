@@ -1,7 +1,7 @@
 ---
 id: 6
 slug: patisserie-limburgia
-image: /images/projects/Limburgia_NEXTDOOR_03.jpg
+image: /images/projects/Limburgia_NEXTDOOR_03.webp
 translations:
   nl:
     title: Patisserie Limburgia

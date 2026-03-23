@@ -1,7 +1,7 @@
 ---
 id: 13
 slug: woonhuis-karel-doormanstraat-oss
-image: /images/projects/Nextdoor07012021ZA010.jpg
+image: /images/projects/Nextdoor07012021ZA010.webp
 translations:
   nl:
     title: Woonhuis Karel Doormanstraat Oss

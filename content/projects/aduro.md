@@ -1,7 +1,7 @@
 ---
 id: 3
 slug: aduro
-image: /images/projects/Bionovion-interieur-028.jpg
+image: /images/projects/Bionovion-interieur-028.webp
 translations:
   nl:
     title: Aduro

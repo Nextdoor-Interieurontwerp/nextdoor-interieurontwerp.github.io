@@ -1,7 +1,7 @@
 ---
 id: 5
 slug: huisartsenpost-oss
-image: /images/projects/Huisartsenpost_NEXTDOOR_1458.jpg
+image: /images/projects/Huisartsenpost_NEXTDOOR_1458.webp
 translations:
   nl:
     title: Huisartsenpost Oss

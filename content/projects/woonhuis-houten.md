@@ -1,7 +1,7 @@
 ---
 id: 14
 slug: woonhuis-houten
-image: /images/projects/Nextdoor10022020ZA061.jpg
+image: /images/projects/Nextdoor10022020ZA061.webp
 translations:
   nl:
     title: Woonhuis Houten

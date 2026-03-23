@@ -1,7 +1,7 @@
 ---
 id: 18
 slug: semi-bungalow-oss
-image: /images/projects/Nextdoor_interieurontwerp_fam_vannuland_109.jpg
+image: /images/projects/Nextdoor_interieurontwerp_fam_vannuland_109.webp
 translations:
   nl:
     title: Semi-bungalow, Oss

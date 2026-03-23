@@ -1,13 +1,19 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   image?: string
 }>()
+const heroImage = computed(() => props.image || '/images/home/hero-main.webp')
 </script>
 
 <template>
   <section class="hero-section">
-    <div class="hero-bg" :style="{ backgroundImage: `url(${image || '/images/home/hero-main.jpg'})` }">
-    </div>
+    <img
+      :src="heroImage"
+      alt=""
+      fetchpriority="high"
+      decoding="async"
+      class="hero-img"
+    />
   </section>
 </template>
 
@@ -15,17 +21,19 @@ defineProps<{
 .hero-section {
   position: relative;
   margin-top: 0;
+  overflow: hidden;
 }
 
-.hero-bg {
+.hero-img {
+  width: 100%;
   height: 80vh;
   min-height: 500px;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 @media (max-width: 768px) {
-  .hero-bg { height: 55vw; min-height: 280px; }
+  .hero-img { height: 55vw; min-height: 280px; }
 }
 </style>

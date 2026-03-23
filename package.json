@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "STUDIO_GITHUB_TOKEN=local nuxt generate",
     "preview": "nuxt preview",
-    "generate-icons": "node generate-icons.mjs"
+    "generate-icons": "node generate-icons.mjs",
+    "convert-images": "bash convert-images.sh"
   },
   "dependencies": {
     "@nuxt/content": "^3.12.0",

@@ -1,7 +1,7 @@
 ---
 id: 7
 slug: rabobank-heesch
-image: /images/projects/Nextdoor_Rabobank_Heesch_2670.jpg
+image: /images/projects/Nextdoor_Rabobank_Heesch_2670.webp
 translations:
   nl:
     title: Rabobank Heesch

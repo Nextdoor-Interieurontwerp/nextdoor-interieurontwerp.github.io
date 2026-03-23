@@ -1,7 +1,7 @@
 ---
 id: 1
 slug: verhoeven-family
-image: /images/projects/Verhoeven_NEXTDOOR_094.jpg
+image: /images/projects/Verhoeven_NEXTDOOR_094.webp
 translations:
   nl:
     title: Verhoeven Family

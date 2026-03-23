@@ -1,7 +1,7 @@
 ---
 id: 4
 slug: top-oss
-image: /images/projects/FCOSS_CSE_business_lounge_talent_campus_TCMBX_7229.jpg
+image: /images/projects/FCOSS_CSE_business_lounge_talent_campus_TCMBX_7229.webp
 translations:
   nl:
     title: TOP OSS

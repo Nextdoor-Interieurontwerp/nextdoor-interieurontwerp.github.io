@@ -6,7 +6,7 @@
       <p class="section-intro">{{ $t('vertegenwoordiging.p2') }}</p>
       <div class="team-member">
         <div class="member-photo">
-          <img src="/images/home/petra.jpg" alt="Petra Willems - Interieur designer en ontwerper" />
+          <img src="/images/home/petra.webp" alt="Petra Willems - Interieur designer en ontwerper" />
         </div>
         <div class="member-info">
           <p class="member-name">Petra Willems</p>

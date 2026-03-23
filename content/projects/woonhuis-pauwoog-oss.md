@@ -1,7 +1,7 @@
 ---
 id: 12
 slug: woonhuis-pauwoog-oss
-image: /images/projects/NextDoor05102022ZA-7.jpg
+image: /images/projects/NextDoor05102022ZA-7.webp
 translations:
   nl:
     title: Woonhuis Pauwoog Oss

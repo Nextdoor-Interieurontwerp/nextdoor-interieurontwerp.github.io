@@ -2,7 +2,7 @@
   <section class="intro-section bg-blue">
     <div class="container intro-inner">
       <div class="intro-image">
-        <img src="/images/home/intro-living.jpg" :alt="$t('intro.imgAlt')" />
+        <img src="/images/home/intro-living.webp" :alt="$t('intro.imgAlt')" width="1100" height="1100" loading="lazy" />
       </div>
       <div class="intro-text">
         <p class="cursive">{{ $t('intro.tagline') }}</p>

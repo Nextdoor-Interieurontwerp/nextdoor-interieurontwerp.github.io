@@ -3,13 +3,13 @@
 
     <!-- Hero image -->
     <div class="impressie-hero">
-      <img src="/images/impressie/PRESENTATIE_header.jpg" alt="Presentatie nieuwbouwwoning" />
+      <img src="/images/impressie/PRESENTATIE_header.webp" alt="Presentatie nieuwbouwwoning" />
     </div>
 
     <!-- Intro section -->
     <section class="impressie-intro container">
       <div class="intro-image">
-        <img src="/images/impressie/PRESENTATIE_intro_afbeelding.jpg" alt="Presentatie voorbeeld" />
+        <img src="/images/impressie/PRESENTATIE_intro_afbeelding.webp" alt="Presentatie voorbeeld" />
       </div>
       <div class="intro-text">
         <p class="cursive-tagline">{{ $t('impressie.tagline') }}</p>
@@ -25,15 +25,15 @@
         <h2 class="section-title">{{ $t('impressie.kamersTitle') }}</h2>
         <div class="gallery-single">
           <figure>
-            <img src="/images/impressie/presentatie-2.jpg" :alt="$t('impressie.cap1')" loading="lazy" />
+            <img src="/images/impressie/presentatie-2.webp" :alt="$t('impressie.cap1')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap1') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-3.jpg" :alt="$t('impressie.cap2')" loading="lazy" />
+            <img src="/images/impressie/presentatie-3.webp" :alt="$t('impressie.cap2')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap2') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-4.jpg" :alt="$t('impressie.cap3')" loading="lazy" />
+            <img src="/images/impressie/presentatie-4.webp" :alt="$t('impressie.cap3')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap3') }}</figcaption>
           </figure>
         </div>
@@ -46,19 +46,19 @@
         <h2 class="section-title">{{ $t('impressie.bovenaanzichtenTitle') }}</h2>
         <div class="gallery-grid">
           <figure>
-            <img src="/images/impressie/presentatie-6.jpg" :alt="$t('impressie.cap4')" loading="lazy" />
+            <img src="/images/impressie/presentatie-6.webp" :alt="$t('impressie.cap4')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap4') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-7.jpg" :alt="$t('impressie.cap5')" loading="lazy" />
+            <img src="/images/impressie/presentatie-7.webp" :alt="$t('impressie.cap5')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap5') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-8.jpg" :alt="$t('impressie.cap6')" loading="lazy" />
+            <img src="/images/impressie/presentatie-8.webp" :alt="$t('impressie.cap6')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap6') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-9.jpg" :alt="$t('impressie.cap7')" loading="lazy" />
+            <img src="/images/impressie/presentatie-9.webp" :alt="$t('impressie.cap7')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap7') }}</figcaption>
           </figure>
         </div>
@@ -71,19 +71,19 @@
         <h2 class="section-title">{{ $t('impressie.impressieTitle') }}</h2>
         <div class="gallery-grid">
           <figure>
-            <img src="/images/impressie/presentatie-10.jpg" :alt="$t('impressie.cap8')" loading="lazy" />
+            <img src="/images/impressie/presentatie-10.webp" :alt="$t('impressie.cap8')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap8') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-11.jpg" :alt="$t('impressie.cap9')" loading="lazy" />
+            <img src="/images/impressie/presentatie-11.webp" :alt="$t('impressie.cap9')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap9') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-12.jpg" :alt="$t('impressie.cap10')" loading="lazy" />
+            <img src="/images/impressie/presentatie-12.webp" :alt="$t('impressie.cap10')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap10') }}</figcaption>
           </figure>
           <figure>
-            <img src="/images/impressie/presentatie-13.jpg" :alt="$t('impressie.cap11')" loading="lazy" />
+            <img src="/images/impressie/presentatie-13.webp" :alt="$t('impressie.cap11')" loading="lazy" />
             <figcaption>{{ $t('impressie.cap11') }}</figcaption>
           </figure>
         </div>

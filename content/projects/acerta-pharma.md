@@ -1,7 +1,7 @@
 ---
 id: 2
 slug: acerta-pharma
-image: /images/projects/Nextdoor_AcertaPharma-004-1.jpg
+image: /images/projects/Nextdoor_AcertaPharma-004-1.webp
 translations:
   nl:
     title: Acerta Pharma

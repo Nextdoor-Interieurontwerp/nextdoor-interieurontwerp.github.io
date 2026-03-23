@@ -1,7 +1,7 @@
 ---
 id: 17
 slug: woonhuis-en-tuin-uden
-image: /images/projects/Nextdoor_interieurontwerp_fam_dehaan_010.jpg
+image: /images/projects/Nextdoor_interieurontwerp_fam_dehaan_010.webp
 translations:
   nl:
     title: Woonhuis en tuin, Uden

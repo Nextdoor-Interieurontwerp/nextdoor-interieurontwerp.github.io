@@ -1,7 +1,7 @@
 ---
 id: 15
 slug: woonhuis-jong-gezin-oss
-image: /images/projects/Nextdoor_interieurontwerp_fam_schalken_032.jpg
+image: /images/projects/Nextdoor_interieurontwerp_fam_schalken_032.webp
 translations:
   nl:
     title: Woonhuis jong gezin, Oss
