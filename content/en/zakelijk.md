@@ -12,5 +12,5 @@ ogImage:
 An overview of our business projects. From new office or canteen furnishings to lounge areas, flexible workspaces and meeting rooms.
 :::
 
-:::project-grid{category="zakelijk"}
+:::project-grid{category="business"}
 :::

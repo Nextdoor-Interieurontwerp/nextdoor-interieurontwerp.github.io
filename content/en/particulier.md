@@ -12,5 +12,5 @@ ogImage:
 An overview of our residential projects. From living room, kitchen and bathroom to the complete home.
 :::
 
-:::project-grid{category="particulier"}
+:::project-grid{category="residential"}
 :::

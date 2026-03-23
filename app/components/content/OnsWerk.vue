@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { projects } from '~/data/projects'
-
 const localePath = useLocalePath()
+const { locale } = useI18n()
 
-// Show a selection of projects on the homepage (mix of both categories)
-const featured = projects.slice(0, 6)
+const { data: featured } = await useAsyncData(
+  `projects-featured-${locale.value}`,
+  () => queryCollection('content').where('path', 'LIKE', '/projects/%').order('stem', 'ASC').limit(6).all(),
+  { watch: [locale] }
+)
 </script>
 
 <template>
@@ -14,7 +16,7 @@ const featured = projects.slice(0, 6)
       <p class="section-sub">{{ $t('onsWerk.sub') }} <NuxtLink :to="localePath('/zakelijk')">{{ $t('onsWerk.business') }}</NuxtLink> {{ $t('onsWerk.and') }} <NuxtLink :to="localePath('/particulier')">{{ $t('onsWerk.residential') }}</NuxtLink></p>
       <div class="werk-grid">
         <div v-for="project in featured" :key="project.id" class="werk-item">
-          <img :src="project.image" :alt="project.title" loading="lazy" />
+          <img :src="project.image" :alt="project.translations?.[locale]?.title ?? project.slug" loading="lazy" />
         </div>
       </div>
     </div>

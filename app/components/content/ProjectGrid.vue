@@ -1,13 +1,23 @@
 <script setup lang="ts">
-import { projects } from '~/data/projects'
-
 const props = defineProps<{
   category?: string
 }>()
 
+const { locale } = useI18n()
+
+const { data: allProjects } = await useAsyncData(
+  `projects-${locale.value}`,
+  () => queryCollection('content').where('path', 'LIKE', '/projects/%').order('stem', 'ASC').all(),
+  { watch: [locale] }
+)
+
 const filteredProjects = computed(() => {
-  if (!props.category) return projects
-  return projects.filter(p => p.category === props.category)
+  if (!allProjects.value) return []
+  if (!props.category) return allProjects.value
+  return allProjects.value.filter(p => {
+    const t = p.translations?.[locale.value]
+    return t?.category === props.category
+  })
 })
 
 const selectedProject = ref(null)
@@ -34,14 +44,14 @@ onUnmounted(() => {
         class="project-item"
         @click="openLightbox(project)"
         role="button"
-        :aria-label="$t('projectGrid.ariaLabel', { title: project.title })"
+        :aria-label="$t('projectGrid.ariaLabel', { title: project.translations?.[locale]?.title ?? project.slug })"
         tabindex="0"
         @keydown.enter="openLightbox(project)"
       >
         <div class="image-wrapper">
-          <img :src="project.image" :alt="project.title" loading="lazy" />
+          <img :src="project.image" :alt="project.translations?.[locale]?.title ?? project.slug" loading="lazy" />
           <div class="hover-overlay">
-            <h3>{{ project.title }}</h3>
+            <h3>{{ project.translations?.[locale]?.title ?? project.slug }}</h3>
             <span class="btn-view">{{ $t('projectGrid.viewProject') }}</span>
           </div>
         </div>
@@ -54,18 +64,18 @@ onUnmounted(() => {
           <button class="close-btn" @click="closeLightbox" :aria-label="$t('projectGrid.closeLabel')">&times;</button>
           <div class="lightbox-grid">
             <div class="lightbox-image">
-              <img :src="selectedProject.image" :alt="selectedProject.title" />
+              <img :src="selectedProject.image" :alt="selectedProject.translations?.[locale]?.title ?? selectedProject.slug" />
             </div>
             <div class="lightbox-info">
-              <p class="project-category">{{ selectedProject.category }}</p>
-              <h2>{{ selectedProject.title }}</h2>
-              <p class="project-desc">{{ selectedProject.description }}</p>
-              <div v-if="selectedProject.location || selectedProject.services" class="project-meta">
-                <p v-if="selectedProject.location"><strong>{{ $t('projectGrid.location') }}</strong> {{ selectedProject.location }}</p>
-                <p v-if="selectedProject.services"><strong>{{ $t('projectGrid.services') }}</strong> {{ selectedProject.services }}</p>
+              <p class="project-category">{{ selectedProject.translations?.[locale]?.category }}</p>
+              <h2>{{ selectedProject.translations?.[locale]?.title ?? selectedProject.slug }}</h2>
+              <ContentRenderer :value="selectedProject" class="project-desc" />
+              <div v-if="selectedProject.translations?.[locale]?.location || selectedProject.translations?.[locale]?.services" class="project-meta">
+                <p v-if="selectedProject.translations?.[locale]?.location"><strong>{{ $t('projectGrid.location') }}</strong> {{ selectedProject.translations[locale].location }}</p>
+                <p v-if="selectedProject.translations?.[locale]?.services"><strong>{{ $t('projectGrid.services') }}</strong> {{ selectedProject.translations[locale].services }}</p>
               </div>
               <div class="tags">
-                <span v-for="tag in selectedProject.tags" :key="tag" class="tag">#{{ tag }}</span>
+                <span v-for="tag in selectedProject.translations?.[locale]?.tags ?? []" :key="tag" class="tag">#{{ tag }}</span>
               </div>
             </div>
           </div>
