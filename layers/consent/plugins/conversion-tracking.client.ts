@@ -55,4 +55,14 @@ export default defineNuxtPlugin(() => {
 
   firePageViews(route.path)
   router.afterEach((to) => firePageViews(to.path))
+
+  // If the user grants marketing consent *after* the initial page load (the
+  // common case — they land, then click Accept), backfire pageView conversions
+  // for the route they're currently on so we don't lose that signal.
+  watch(
+    () => hasConsent('marketing'),
+    (granted, prev) => {
+      if (granted && !prev) firePageViews(route.path)
+    },
+  )
 })
