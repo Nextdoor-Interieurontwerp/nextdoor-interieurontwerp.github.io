@@ -1,0 +1,23 @@
+[
+  {
+    "key": "phoneTap",
+    "name": "Phone tap",
+    "category": "PHONE_CALL_LEAD",
+    "valueEur": 750,
+    "trigger": { "type": "linkClick", "hrefStartsWith": "tel:" }
+  },
+  {
+    "key": "emailClick",
+    "name": "Email click",
+    "category": "CONTACT",
+    "valueEur": 450,
+    "trigger": { "type": "linkClick", "hrefStartsWith": "mailto:" }
+  },
+  {
+    "key": "homePageView",
+    "name": "Home page view",
+    "category": "PAGE_VIEW",
+    "valueEur": 100,
+    "trigger": { "type": "pageView", "path": "/" }
+  }
+]
