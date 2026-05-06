@@ -35,6 +35,7 @@ jobs:
         run: npm run generate
         env:
           STUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUXT_PUBLIC_GOOGLE_ADS_ID: AW-1048537913
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
