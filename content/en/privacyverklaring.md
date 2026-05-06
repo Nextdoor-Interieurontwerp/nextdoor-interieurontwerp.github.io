@@ -53,9 +53,23 @@ NEXTDOOR does not sell your data to third parties and only provides it if necess
 
 ## Cookies, or similar techniques, that we use
 
-NEXTDOOR uses functional, analytical and tracking cookies. A cookie is a small text file that is stored in the browser of your computer, tablet or smartphone on your first visit to this website. NEXTDOOR uses cookies with a purely technical functionality. These ensure that the website works properly and that, for example, your preferences are remembered. These cookies are also used to make the website work well and to optimise it.
+This website uses cookies. Below is an overview of all cookies that may be placed, grouped by purpose. On your first visit we ask for your consent via a cookie banner. Non-essential cookies are only placed after you have explicitly given consent.
 
-You can opt out of cookies by setting your internet browser so that it no longer stores cookies. You can also delete all information previously stored via the settings of your browser.
+### Necessary cookies (always active)
+
+These cookies are required for the basic operation of the website and are placed without consent.
+
+- `nd_consent` — stores your cookie preferences. Retention: 12 months. First-party.
+
+### Marketing cookies (only after consent)
+
+These cookies are placed only after you have given consent.
+
+- **Google Ads** — provider: Google LLC (United States). We use Google Ads to measure whether visitors arrive at our website via an advertisement and what actions they take afterwards (such as calling or e-mailing). For this purpose, the cookies `_gcl_au`, `_gcl_aw` and `_gcl_dc` are placed and Google's `gtag.js` script is loaded. Retention: up to 90 days. Google's privacy policy: <https://policies.google.com/privacy>.
+
+### Changing or withdrawing consent
+
+You can change or withdraw your consent at any time by deleting the cookies for this website in your browser, after which the cookie banner will reappear. You can also set your browser to no longer store cookies.
 
 ## Viewing, modifying or deleting your data
 

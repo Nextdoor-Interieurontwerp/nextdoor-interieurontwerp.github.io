@@ -53,9 +53,23 @@ NEXTDOOR verkoopt uw gegevens niet aan derden en verstrekt deze uitsluitend indi
 
 ## Cookies, of vergelijkbare technieken, die wij gebruiken
 
-NEXTDOOR gebruikt functionele, analytische en tracking cookies. Een cookie is een klein tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen in de browser van uw computer, tablet of smartphone. NEXTDOOR gebruikt cookies met een puur technische functionaliteit. Deze zorgen ervoor dat de website naar behoren werkt en dat bijvoorbeeld uw voorkeursinstellingen onthouden worden. Deze cookies worden ook gebruikt om de website goed te laten werken en deze te kunnen optimaliseren.
+Deze website gebruikt cookies. Hieronder vindt u een overzicht van alle cookies die geplaatst kunnen worden, gegroepeerd op doel. Bij uw eerste bezoek vragen wij u via een cookiebanner om uw toestemming voor de niet-noodzakelijke cookies. Niet-noodzakelijke cookies worden pas geplaatst nadat u hier expliciet toestemming voor heeft gegeven.
 
-U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kunt u ook alle informatie die eerder is opgeslagen via de instellingen van uw browser verwijderen.
+### Noodzakelijke cookies (altijd actief)
+
+Deze cookies zijn nodig voor de basiswerking van de website en worden zonder toestemming geplaatst.
+
+- `nd_consent` — bewaart uw cookievoorkeuren. Bewaartermijn: 12 maanden. Eerste partij.
+
+### Marketing cookies (alleen na toestemming)
+
+Deze cookies worden alleen geplaatst nadat u hiervoor toestemming heeft gegeven.
+
+- **Google Ads** — provider: Google LLC (Verenigde Staten). Wij gebruiken Google Ads om te meten of bezoekers via een advertentie op onze website terechtkomen en welke acties zij vervolgens uitvoeren (bijvoorbeeld bellen of e-mailen). Hiervoor worden de cookies `_gcl_au`, `_gcl_aw` en `_gcl_dc` geplaatst en wordt het script `gtag.js` van Google geladen. Bewaartermijn: maximaal 90 dagen. Privacybeleid van Google: <https://policies.google.com/privacy>.
+
+### Toestemming wijzigen of intrekken
+
+U kunt uw toestemming op elk moment wijzigen of intrekken door de cookies van deze website in uw browser te verwijderen, waarna de cookiebanner opnieuw verschijnt. Daarnaast kunt u uw browser zo instellen dat deze geen cookies meer opslaat.
 
 ## Gegevens inzien, aanpassen of verwijderen
 
