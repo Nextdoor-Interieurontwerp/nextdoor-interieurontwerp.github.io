@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.12.0",
+    "@nuxt/scripts": "^1.0.6",
     "@nuxtjs/i18n": "^10.2.3",
     "@nuxtjs/seo": "^3.4.0",
     "better-sqlite3": "^12.6.2",
@@ -22,6 +23,7 @@
     "@vite-pwa/nuxt": "^1.1.1",
     "lucide-vue-next": "^0.577.0",
     "nuxt-component-meta": "^0.17.2",
+    "playwright": "^1.59.1",
     "sharp": "^0.34.5"
   },
   "overrides": {

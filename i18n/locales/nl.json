@@ -13,6 +13,42 @@
     "terms": "Algemene voorwaarden",
     "privacy": "Privacyverklaring"
   },
+  "consent": {
+    "banner": {
+      "title": "Wij gebruiken cookies",
+      "body": "Voor analyse en advertenties. Noodzakelijke cookies zijn altijd actief.",
+      "privacyLink": "Lees onze privacyverklaring",
+      "acceptAll": "Alles accepteren",
+      "rejectAll": "Alleen noodzakelijk",
+      "manage": "Voorkeuren beheren"
+    },
+    "panel": {
+      "title": "Cookievoorkeuren",
+      "save": "Voorkeuren opslaan",
+      "acceptAll": "Alles accepteren",
+      "close": "Sluiten",
+      "categories": {
+        "necessary": {
+          "label": "Noodzakelijk",
+          "lockedHint": "altijd actief",
+          "desc": "Vereist voor de basiswerking van de website."
+        },
+        "preferences": {
+          "label": "Voorkeuren",
+          "desc": "Onthouden van taalkeuze en andere voorkeuren."
+        },
+        "analytics": {
+          "label": "Statistieken",
+          "desc": "Anoniem inzicht in hoe de website wordt gebruikt."
+        },
+        "marketing": {
+          "label": "Marketing",
+          "desc": "Meten of advertenties leiden tot een aanvraag."
+        }
+      }
+    },
+    "reopen": "Cookievoorkeuren"
+  },
   "intro": {
     "tagline": "Eenheid ruimte en warmte",
     "heading": "Gecreëerd door ervaren en bedreven interieurontwerpers en – architecten",

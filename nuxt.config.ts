@@ -2,6 +2,7 @@ import { readdirSync, existsSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
 
 export default defineNuxtConfig({
+    extends: ['./layers/consent'],
     ssr: true,
     experimental: {
         inlineStyles: true,
@@ -133,7 +134,7 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
                 { rel: 'shortcut icon', href: '/favicon.ico' },
                 { rel: 'apple-touch-icon', href: '/images/apple-touch-icon.png' },
-                { rel: 'preload', as: 'image', href: '/images/home/hero-main.webp', fetchpriority: 'high' },
+                { rel: 'preload', as: 'image', href: '/images/home/hero-main.jpg', fetchpriority: 'high' },
                 { rel: 'preload', as: 'font', href: '/fonts/Aesthetikos.ttf', type: 'font/ttf', crossorigin: 'anonymous' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },

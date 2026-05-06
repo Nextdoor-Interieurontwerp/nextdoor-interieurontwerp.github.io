@@ -13,6 +13,42 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy"
   },
+  "consent": {
+    "banner": {
+      "title": "We use cookies",
+      "body": "For analytics and advertising. Necessary cookies are always active.",
+      "privacyLink": "Read our privacy policy",
+      "acceptAll": "Accept all",
+      "rejectAll": "Necessary only",
+      "manage": "Manage preferences"
+    },
+    "panel": {
+      "title": "Cookie preferences",
+      "save": "Save preferences",
+      "acceptAll": "Accept all",
+      "close": "Close",
+      "categories": {
+        "necessary": {
+          "label": "Necessary",
+          "lockedHint": "always on",
+          "desc": "Required for the basic operation of the website."
+        },
+        "preferences": {
+          "label": "Preferences",
+          "desc": "Remember your language choice and other preferences."
+        },
+        "analytics": {
+          "label": "Analytics",
+          "desc": "Anonymous insight into how the website is used."
+        },
+        "marketing": {
+          "label": "Marketing",
+          "desc": "Measure whether ads lead to enquiries."
+        }
+      }
+    },
+    "reopen": "Cookie preferences"
+  },
   "intro": {
     "tagline": "Unity, space and warmth",
     "heading": "Created by experienced and skilled interior designers and architects",
