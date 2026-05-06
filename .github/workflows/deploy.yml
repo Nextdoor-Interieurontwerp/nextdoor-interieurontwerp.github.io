@@ -35,12 +35,15 @@ jobs:
           STUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NUXT_PUBLIC_GOOGLE_ADS_ID: AW-1048537913
 
-      - name: Deploy to Plesk via FTP
+      - name: Deploy to Plesk via FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: web1.intractief.nl
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          security: loose
           local-dir: ./.output/public/
           server-dir: ./
           log-level: minimal
