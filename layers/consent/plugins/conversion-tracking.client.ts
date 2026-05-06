@@ -6,7 +6,8 @@ import lock from '../conversions.lock.json'
 
 type LinkClickTrigger = { type: 'linkClick'; hrefStartsWith: string }
 type PageViewTrigger = { type: 'pageView'; path?: string }
-type Trigger = LinkClickTrigger | PageViewTrigger
+type ExternalTrigger = { type: 'external' } // Fired by Google Ads (e.g. call asset), not the site
+type Trigger = LinkClickTrigger | PageViewTrigger | ExternalTrigger
 type Conversion = { key: string; name: string; category: string; valueEur?: number; trigger: Trigger }
 
 const lockMap = lock as Record<string, string>
