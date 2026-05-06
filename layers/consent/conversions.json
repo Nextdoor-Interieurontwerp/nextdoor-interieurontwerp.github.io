@@ -24,6 +24,7 @@
     "key": "callFromAd",
     "name": "Call from ad",
     "category": "PHONE_CALL_LEAD",
+    "actionType": "AD_CALL",
     "valueEur": 750,
     "trigger": { "type": "external" }
   }
