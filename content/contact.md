@@ -16,7 +16,7 @@ Heb je een vraag of wil je een afspraak maken? Neem gerust contact met ons op.
     ::::info-item
     ### Adres
 
-    Leonardusstraat 4
+    St. Leonardusstraat 4
     5341 AN Oss
     ::::
 

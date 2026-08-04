@@ -5,12 +5,14 @@ image: /images/projects/Nextdoor_AcertaPharma-004-1.webp
 translations:
   nl:
     title: Acerta Pharma
+    description: Complete verbouwing en herindeling voor Acerta Pharma, met ergonomische werkplekken, functionele overlegruimtes en kantoren met glazen puien en taatsdeuren.
     category: zakelijk
     location: Acerta Pharma, Oss
     services: Verbouwing, herindeling, ontwerp en inrichting van kantoren en gezamenlijke ruimtes
     tags: [kantoor, pharma, werkplekken]
   en:
     title: Acerta Pharma
+    description: A complete renovation and redesign for Acerta Pharma, with ergonomic workstations, functional meeting spaces and offices with glass facades and pivot doors.
     category: business
     location: Acerta Pharma, Oss
     services: Renovation, redesign, and furnishing of offices and shared spaces

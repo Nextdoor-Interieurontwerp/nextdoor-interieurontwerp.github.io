@@ -5,12 +5,14 @@ image: /images/projects/Huisartsenpost_NEXTDOOR_1458.webp
 translations:
   nl:
     title: Huisartsenpost Oss
+    description: Moderne inrichting voor Huisartsenpost Oost-Brabant in Oss. Warme materialen en vriendelijke kleuren in de huisstijl, met een door ons ontworpen balie.
     category: zakelijk
     location: Huisartsenpost, Oss
     services: 3D ontwerp en inrichting van receptie, wachtruimte en behandelkamers
     tags: [gezondheidszorg, wachtruimte, balie]
   en:
     title: Huisartsenpost Oss
+    description: A modern interior for the out-of-hours GP surgery in Oss. Warm materials and friendly colours in the house style, with a reception desk designed by NEXTDOOR.
     category: business
     location: Huisartsenpost, Oss
     services: 3D design and furnishing of reception, waiting room and treatment rooms

@@ -5,12 +5,14 @@ image: /images/projects/Nextdoor_interieurontwerp_fam_vanderblij_2.webp
 translations:
   nl:
     title: Villa Schaijk
+    description: Luxe interieurontwerp voor een villa in Schaijk. Exclusief maatwerk van vloer tot plafond, met plattegrond, 3D visualisaties en persoonlijk kleuradvies.
     category: particulier
     location: Schaijk
     services: Ontwerp, plattegrond, 3D visualisaties, persoonlijk kleuradvies, inrichting
     tags: [villa, luxe, maatwerk]
   en:
     title: Villa Schaijk
+    description: Luxury interior design for a villa in Schaijk. Exclusive bespoke work from floor to ceiling, with floor plan, 3D visualisations and personal colour advice.
     category: residential
     location: Schaijk
     services: Design, floor plan, 3D visualisations, personal colour advice, furnishing

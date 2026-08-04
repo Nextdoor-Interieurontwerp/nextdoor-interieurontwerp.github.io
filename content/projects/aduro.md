@@ -5,12 +5,14 @@ image: /images/projects/Bionovion-interieur-028.webp
 translations:
   nl:
     title: Aduro
+    description: 'Herinrichting van alle kantoren en laboratoria van Aduro Biotech: een kantoorvleugel met glaswand, accentkleuren per kantoor en een multifunctionele kantine.'
     category: zakelijk
     location: Aduro Biotech, PivotPark Oss
     services: Inrichting 800m² aan kantoren en laboratoria
     tags: [kantoor, biotech, innovatie]
   en:
     title: Aduro
+    description: 'Redesign of all offices and laboratories for Aduro Biotech: a glass-walled office wing, an accent colour per office and a multifunctional canteen.'
     category: business
     location: Aduro Biotech, PivotPark Oss
     services: Furnishing of 800m² of offices and laboratories

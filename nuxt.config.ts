@@ -1,5 +1,6 @@
 import { readdirSync, existsSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
+import { BUSINESS, SITE_URL, socialProfiles } from './shared/business'
 
 export default defineNuxtConfig({
     extends: ['./layers/consent'],
@@ -9,7 +10,9 @@ export default defineNuxtConfig({
     },
     nitro: {
         prerender: {
-            autoSubfolderIndex: true
+            autoSubfolderIndex: true,
+            // Generated from content/ by server/routes — see server/utils/llms.ts
+            routes: ['/llms.txt', '/llms-full.txt'],
         }
     },
     future: {
@@ -52,21 +55,26 @@ export default defineNuxtConfig({
     },
     schemaOrg: {
         identity: {
+            '@id': `${SITE_URL}/#identity`,
             type: 'LocalBusiness',
-            name: 'NEXTDOOR Interieur Ontwerp',
-            url: 'https://nextdoorinterieurontwerp.nl',
-            logo: 'https://nextdoorinterieurontwerp.nl/images/logo.svg',
-            telephone: '+31638894042',
-            email: 'info@nextdoorinterieurontwerp.nl',
+            name: BUSINESS.name,
+            legalName: BUSINESS.legalName,
+            url: BUSINESS.url,
+            logo: `${SITE_URL}/images/logo.svg`,
+            image: `${SITE_URL}/images/home/intro-living.webp`,
+            telephone: BUSINESS.telephone,
+            email: BUSINESS.email,
             address: {
-                streetAddress: 'Leonardusstraat 4',
-                addressLocality: 'Oss',
-                postalCode: '5341 AN',
-                addressCountry: 'NL',
+                streetAddress: BUSINESS.address.streetAddress,
+                addressLocality: BUSINESS.address.addressLocality,
+                addressRegion: BUSINESS.address.addressRegion,
+                postalCode: BUSINESS.address.postalCode,
+                addressCountry: BUSINESS.address.addressCountry,
             },
             geo: {
-                latitude: 51.7654,
-                longitude: 5.5176,
+                '@type': 'GeoCoordinates',
+                latitude: BUSINESS.geo.latitude,
+                longitude: BUSINESS.geo.longitude,
             },
             openingHoursSpecification: [
                 {
@@ -75,9 +83,12 @@ export default defineNuxtConfig({
                     closes: '17:00',
                 }
             ],
-            sameAs: [
-                'https://www.instagram.com/nextdoorinterieurontwerp',
+            areaServed: [
+                { '@type': 'City', name: 'Oss' },
+                { '@type': 'AdministrativeArea', name: 'Noord-Brabant' },
+                { '@type': 'Country', name: 'Nederland' },
             ],
+            sameAs: socialProfiles,
         }
     },
     ogImage: {
@@ -130,11 +141,14 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
+            // Page titles in content/ already carry the brand and location, so the
+            // default "%s | siteName" template would repeat it. Use them verbatim.
+            titleTemplate: '%s',
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
                 { rel: 'shortcut icon', href: '/favicon.ico' },
                 { rel: 'apple-touch-icon', href: '/images/apple-touch-icon.png' },
-                { rel: 'preload', as: 'image', href: '/images/home/hero-main.jpg', fetchpriority: 'high' },
+                { rel: 'preload', as: 'image', href: '/images/home/intro-living.webp', fetchpriority: 'high' },
                 { rel: 'preload', as: 'font', href: '/fonts/Aesthetikos.ttf', type: 'font/ttf', crossorigin: 'anonymous' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
@@ -142,9 +156,9 @@ export default defineNuxtConfig({
             ],
             meta: [
                 { name: 'geo.region', content: 'NL-NB' },
-                { name: 'geo.placename', content: 'Oss' },
-                { name: 'geo.position', content: '51.7654;5.5176' },
-                { name: 'ICBM', content: '51.7654, 5.5176' },
+                { name: 'geo.placename', content: BUSINESS.address.addressLocality },
+                { name: 'geo.position', content: `${BUSINESS.geo.latitude};${BUSINESS.geo.longitude}` },
+                { name: 'ICBM', content: `${BUSINESS.geo.latitude}, ${BUSINESS.geo.longitude}` },
             ]
         }
     },

@@ -9,7 +9,7 @@ robots: noindex
 
 **GENERAL TERMS AND CONDITIONS OF SALE AND DELIVERY OF:**
 
-Nextdoor B.V., Leonardusstraat 4 (5341 AN) Oss
+Nextdoor B.V., St. Leonardusstraat 4 (5341 AN) Oss
 
 ## Article 1. Definitions
 

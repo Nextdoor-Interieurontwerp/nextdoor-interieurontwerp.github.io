@@ -5,12 +5,14 @@ image: /images/projects/Nextdoor_vandenheuvelmakelaars_1515.webp
 translations:
   nl:
     title: Van den Heuvel Makelaars
+    description: Ontwerp en inrichting van de kantoorruimtes voor een makelaarskantoor in het centrum van Oss, met nieuwe vloer, verlichtingsplan en een eigen look per ruimte.
     category: zakelijk
     location: Van den Heuvel Makelaars, Oss
     services: Interieurontwerp en inrichting kantoorruimtes
     tags: [makelaardij, kantoor, representatief]
   en:
     title: Van den Heuvel Makelaars
+    description: Design and furnishing of the office spaces for an estate agency in the centre of Oss, with new flooring, a lighting plan and a distinct look per room.
     category: business
     location: Van den Heuvel Makelaars, Oss
     services: Interior design and furnishing of office spaces

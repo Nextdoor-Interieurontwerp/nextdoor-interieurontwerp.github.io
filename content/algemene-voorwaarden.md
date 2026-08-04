@@ -9,7 +9,7 @@ robots: noindex
 
 **ALGEMENE VERKOOP- EN LEVERINGSVOORWAARDEN VAN:**
 
-Nextdoor B.V., Leonardusstraat 4 (5341 AN) Oss
+Nextdoor B.V., St. Leonardusstraat 4 (5341 AN) Oss
 
 ## Artikel 1. Definities
 

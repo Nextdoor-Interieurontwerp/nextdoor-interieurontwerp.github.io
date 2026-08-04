@@ -5,12 +5,14 @@ image: /images/projects/NextDoor05102022ZA-7.webp
 translations:
   nl:
     title: Woonhuis Pauwoog Oss
+    description: Interieurontwerp voor een woonhuis in de wijk Pauwoog, Oss. Warm en eigentijds totaalontwerp met plattegrond, 3D visualisatie, keuken en badkamer.
     category: particulier
     location: Oss
     services: Totaal ontwerp, plattegrond, 3D visualisatie, kleurgebruik, keuken, badkamer
     tags: [woonhuis, eigentijds, warm]
   en:
     title: Woonhuis Pauwoog Oss
+    description: Interior design for a home in the Pauwoog neighbourhood, Oss. A warm, contemporary full design including floor plan, 3D visualisation, kitchen and bathroom.
     category: residential
     location: Oss
     services: Full design, floor plan, 3D visualisation, colour scheme, kitchen, bathroom

@@ -5,12 +5,14 @@ image: /images/projects/Nextdoor_interieurontwerp_fam_dehaan_010.webp
 translations:
   nl:
     title: Woonhuis en tuin, Uden
+    description: Integraal ontwerp voor woning en tuin in Uden. Binnen en buiten in perfecte harmonie, met plattegrond, 3D visualisaties en persoonlijk kleuradvies.
     category: particulier
     location: Uden
     services: Ontwerp, plattegrond, 3D visualisaties, persoonlijk kleuradvies, inrichting
     tags: [woonhuis, tuin, integraal-ontwerp]
   en:
     title: Home and Garden, Uden
+    description: An integral design for home and garden in Uden. Interior and exterior in perfect harmony, with floor plan, 3D visualisations and personal colour advice.
     category: residential
     location: Uden
     services: Design, floor plan, 3D visualisations, personal colour advice, furnishing

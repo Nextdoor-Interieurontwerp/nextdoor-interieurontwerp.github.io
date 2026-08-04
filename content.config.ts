@@ -2,6 +2,7 @@ import { defineContentConfig, defineCollection, z } from '@nuxt/content'
 
 const localeFields = z.object({
   title: z.string().optional(),
+  description: z.string().optional(),
   category: z.string().optional(),
   location: z.string().optional(),
   services: z.string().optional(),

@@ -2,7 +2,7 @@
 const props = defineProps<{
   image?: string
 }>()
-const heroImage = computed(() => props.image || '/images/home/hero-main.webp')
+const heroImage = computed(() => props.image || '/images/home/intro-living.webp')
 </script>
 
 <template>

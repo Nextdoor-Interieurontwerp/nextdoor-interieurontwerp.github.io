@@ -15,17 +15,17 @@
       </div>
 
       <div class="footer-contact-col">
-        <p><a href="tel:+31638894042">06 388 940 42</a></p>
-        <p><a href="mailto:info@nextdoorinterieurontwerp.nl">info@nextdoorinterieurontwerp.nl</a></p>
-        <p>Leonardusstraat 4, 5341 AN Oss</p>
+        <p><a :href="`tel:${BUSINESS.telephone}`">{{ BUSINESS.telephoneDisplay }}</a></p>
+        <p><a :href="`mailto:${BUSINESS.email}`">{{ BUSINESS.email }}</a></p>
+        <p>{{ shortAddress }}</p>
         <div class="footer-social">
-          <a href="https://www.linkedin.com/company/nextdoor-interieurontwerp" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a :href="BUSINESS.socials.linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect transform="translate(2,9)" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
-          <a href="https://www.facebook.com/nextdoorinterieurontwerp/" target="_blank" rel="noopener" aria-label="Facebook">
+          <a :href="BUSINESS.socials.facebook" target="_blank" rel="noopener" aria-label="Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
           </a>
-          <a href="https://www.instagram.com/nextdoorinterieurontwerp/" target="_blank" rel="noopener" aria-label="Instagram">
+          <a :href="BUSINESS.socials.instagram" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect transform="translate(2,2)" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5 L17.51 6.5"/></svg>
           </a>
         </div>
@@ -34,7 +34,7 @@
 
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
-        <p>&copy; {{ new Date().getFullYear() }} NEXTDOOR interieurontwerp en -advies &nbsp;|&nbsp; KvK 75743914</p>
+        <p>&copy; {{ new Date().getFullYear() }} {{ BUSINESS.fullName }} &nbsp;|&nbsp; KvK {{ BUSINESS.kvk }}</p>
         <p class="footer-legal">
           <NuxtLink :to="localePath('/impressie')">{{ $t('footer.legal') }}</NuxtLink>
           &nbsp;|&nbsp;
@@ -48,13 +48,15 @@
 </template>
 
 <script setup lang="ts">
+import { BUSINESS, shortAddress } from '~~/shared/business'
+
 const localePath = useLocalePath()
 </script>
 
 <style scoped>
 .footer {
   background: var(--taupe);
-  color: white;
+  color: var(--taupe-on-taupe);
   padding: 5rem 0 0;
 }
 
@@ -84,7 +86,7 @@ const localePath = useLocalePath()
 }
 
 .footer-nav a {
-  color: white;
+  color: var(--taupe-on-taupe);
   font-weight: 600;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -92,22 +94,22 @@ const localePath = useLocalePath()
 }
 
 .footer-nav a:hover {
-  color: white;
+  color: var(--taupe-on-taupe);
   opacity: 1;
 }
 
 .footer-contact-col p {
   font-size: 1.4rem;
-  color: white;
+  color: var(--taupe-on-taupe);
   margin-bottom: 0.8rem;
 }
 
 .footer-contact-col a {
-  color: white;
+  color: var(--taupe-on-taupe);
 }
 
 .footer-contact-col a:hover {
-  color: white;
+  color: var(--taupe-on-taupe);
   opacity: 1;
 }
 
@@ -118,13 +120,13 @@ const localePath = useLocalePath()
 }
 
 .footer-social a {
-  color: white;
+  color: var(--taupe-on-taupe);
   display: flex;
   align-items: center;
 }
 
 .footer-social a:hover {
-  color: white;
+  color: var(--taupe-on-taupe);
   opacity: 1;
 }
 
@@ -135,7 +137,7 @@ const localePath = useLocalePath()
 
 .footer-bottom-inner p {
   font-size: 1.2rem;
-  color: white;
+  color: var(--taupe-on-taupe);
   margin: 0;
   text-align: center;
 }
@@ -145,11 +147,11 @@ const localePath = useLocalePath()
 }
 
 .footer-legal a {
-  color: white;
+  color: var(--taupe-on-taupe);
 }
 
 .footer-legal a:hover {
-  color: white;
+  color: var(--taupe-on-taupe);
 }
 
 @media (max-width: 768px) {

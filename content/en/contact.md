@@ -16,7 +16,7 @@ Do you have a question or would you like to make an appointment? Feel free to ge
     ::::info-item
     ### Address
 
-    Leonardusstraat 4
+    St. Leonardusstraat 4
     5341 AN Oss
     ::::
 

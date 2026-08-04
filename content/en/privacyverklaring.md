@@ -7,12 +7,12 @@ robots: noindex
 # Privacy Policy
 :::
 
-NEXTDOOR interior design and advice, located at Leonardusstraat 4, 5341 AN Oss, is responsible for the processing of personal data as described in this privacy policy.
+NEXTDOOR interior design and advice, located at St. Leonardusstraat 4, 5341 AN Oss, is responsible for the processing of personal data as described in this privacy policy.
 
 **Contact details:**
 
 NEXTDOOR interior design and advice
-Leonardusstraat 4, 5341 AN Oss
+St. Leonardusstraat 4, 5341 AN Oss
 [06 388 940 42](tel:+31638894042)
 [info@nextdoorinterieurontwerp.nl](mailto:info@nextdoorinterieurontwerp.nl)
 KvK 75743914

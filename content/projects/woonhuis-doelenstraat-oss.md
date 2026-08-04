@@ -5,12 +5,14 @@ image: /images/projects/NextDoor05102022ZA-88.webp
 translations:
   nl:
     title: Woonhuis Doelenstraat Oss
+    description: Modern woonhuis aan de Doelenstraat in Oss. Stijlvol en functioneel interieur voor het hele gezin, inclusief uitbouw, nieuwe keuken en vloerverwarming.
     category: particulier
     location: Oss
     services: Totaal ontwerp, plattegrond, 3D visualisatie, kleurgebruik, keuken, uitbouw, aanbouw, vloerverwarming
     tags: [woonhuis, modern, gezin]
   en:
     title: Woonhuis Doelenstraat Oss
+    description: A modern family home on the Doelenstraat in Oss. Stylish, functional interior for the whole family, including an extension, kitchen and underfloor heating.
     category: residential
     location: Oss
     services: Full design, floor plan, 3D visualisation, colour scheme, kitchen, extension, underfloor heating

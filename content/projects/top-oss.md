@@ -5,12 +5,14 @@ image: /images/projects/FCOSS_CSE_business_lounge_talent_campus_TCMBX_7229.webp
 translations:
   nl:
     title: TOP OSS
+    description: Ontwerp en inrichting van de skyboxes en business lounge van het TOP OSS stadion in Oss, na de naamsverandering van FC OSS terug naar TOP OSS.
     category: zakelijk
     location: TOP OSS, Oss
     services: Interieurontwerp en inrichting skyboxes en business lounge TOP OSS Stadion, Oss
     tags: [business-lounge, sport, talent-campus]
   en:
     title: TOP OSS
+    description: Design and furnishing of the skyboxes and business lounge at the TOP OSS stadium in Oss, following the rebranding from FC OSS back to TOP OSS.
     category: business
     location: TOP OSS, Oss
     services: Interior design and furnishing of skyboxes and business lounge, TOP OSS Stadium, Oss

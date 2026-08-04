@@ -5,12 +5,14 @@ image: /images/projects/Verhoeven_NEXTDOOR_094.webp
 translations:
   nl:
     title: Verhoeven Family
+    description: Interieurontwerp en inrichting van het nieuwe bedrijfspand voor de Verhoeven Family of Companies, specialist in intern transport en material handling.
     category: zakelijk
     location: Verhoeven Family of Companies, Oss
     services: Interieurontwerp en inrichting voor het nieuwe bedrijfspand
     tags: [kantoor, familiebedrijf, interieurontwerp]
   en:
     title: Verhoeven Family
+    description: Interior design and furnishing of the new business premises for Verhoeven Family of Companies, specialists in internal transport and material handling.
     category: business
     location: Verhoeven Family of Companies, Oss
     services: Interior design and furnishing for the new business premises

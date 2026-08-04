@@ -5,12 +5,14 @@ image: /images/projects/Nextdoor_interieurontwerp_fam_hendriks_36.webp
 translations:
   nl:
     title: Bungalow Oss
+    description: Renovatie en interieurontwerp voor een bungalow in Oss. Comfortabel wonen op een niveau, met nieuw stucwerk, vloeren, keuken en gerenoveerde badkamer.
     category: particulier
     location: Oss
     services: Stucwerk, schilderwerk, nieuwe vloeren, nieuwe keuken, slaapkamer met inloopruimte, badkamer gerenoveerd
     tags: [bungalow, comfort, renovatie]
   en:
     title: Bungalow Oss
+    description: Renovation and interior design for a bungalow in Oss. Comfortable single-level living, with new plastering, floors, kitchen and a renovated bathroom.
     category: residential
     location: Oss
     services: Plastering, painting, new floors, new kitchen, bedroom with walk-in wardrobe, bathroom renovation
