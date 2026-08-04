@@ -130,7 +130,7 @@
 .cursive-tagline {
   font-family: var(--font-cursive, Georgia, serif); /* generic fallback included */
   font-size: 2.4rem;
-  color: var(--taupe);
+  color: var(--taupe-text);
   margin-bottom: 1rem;
   font-style: italic;
 }

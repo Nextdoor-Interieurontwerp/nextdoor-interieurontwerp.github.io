@@ -118,7 +118,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
 
 .top-bar-left a,
 .top-bar-right a {
-  color: white;
+  color: var(--taupe-on-taupe);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -126,7 +126,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
 
 .top-bar-left a:hover,
 .top-bar-right a:hover {
-  color: white;
+  color: var(--taupe-on-taupe);
   opacity: 1;
 }
 
@@ -143,13 +143,13 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
   border: 1px solid rgba(255,255,255,0.5);
   padding: 0.2rem 0.8rem;
   border-radius: 3px;
-  color: white !important;
+  color: var(--taupe-on-taupe) !important;
   transition: border-color 0.2s, color 0.2s;
 }
 
 .lang-switch:hover {
   border-color: white;
-  color: white !important;
+  color: var(--taupe-on-taupe) !important;
 }
 
 /* Main header */
@@ -189,7 +189,7 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: white;
+  color: var(--taupe-on-taupe);
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   padding-bottom: 0.3rem;
@@ -268,14 +268,14 @@ const otherLocale = computed(() => locales.value.find(l => l.code !== locale.val
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3.5rem;
-  color: white;
+  color: var(--taupe-on-taupe);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .mobile-nav a:hover,
 .mobile-nav a.active {
-  color: white;
+  color: var(--taupe-on-taupe);
   opacity: 1;
 }
 

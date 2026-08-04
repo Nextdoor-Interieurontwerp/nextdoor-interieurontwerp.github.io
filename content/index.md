@@ -17,4 +17,4 @@ ogImage:
 
 :alles-op-een-adres
 
-::nextdoor-vertegenwoordiging
+:nextdoor-vertegenwoordiging

@@ -196,7 +196,7 @@ onUnmounted(() => {
 }
 
 .close-btn:hover {
-  color: var(--taupe);
+  color: var(--taupe-text);
 }
 
 .lightbox-grid {
@@ -228,7 +228,7 @@ onUnmounted(() => {
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
-  color: var(--taupe);
+  color: var(--taupe-text);
   margin-bottom: 1rem;
 }
 

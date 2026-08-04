@@ -9,9 +9,12 @@
 :root {
   --taupe: #a69b8d;
   --taupe-dark: #8c8278;
-  --orange: #da6527;
-  --orange-dark: #c55a22;
-  --text: #6d6d6d;
+  --taupe-text: #6e6358;
+  /*--taupe-on-taupe: #1a1a1a;*/ /* This should be applied when accessibility is a concern */
+  --taupe-on-taupe: white;
+  --orange: #b8521e;
+  --orange-dark: #9e4519;
+  --text: #595959;
   --text-dark: #4a4a4a;
   --bg-light: #eceae8;
   --bg-blue: #cfe0ed;
@@ -57,7 +60,7 @@ h4 { font-size: 2rem; }
 }
 
 a {
-  color: var(--taupe);
+  color: var(--taupe-text);
   text-decoration: none;
   transition: 0.3s ease;
 }
