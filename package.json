@@ -8,6 +8,7 @@
     "generate": "STUDIO_GITHUB_TOKEN=local nuxt generate",
     "preview": "nuxt preview",
     "generate-icons": "node generate-icons.mjs",
+    "verify-lightbox": "node verify-lightbox.mjs",
     "convert-images": "bash convert-images.sh"
   },
   "dependencies": {

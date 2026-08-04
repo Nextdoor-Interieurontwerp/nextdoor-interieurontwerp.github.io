@@ -6,6 +6,7 @@ translations:
   nl:
     title: Villa Chopinlaan Oss
     description: Totaalontwerp voor een villa aan de Chopinlaan in Oss. Luxe interieur op maat, van plattegrond en 3D visualisatie tot keuken, buitengevel en verlichting.
+    alt: Woon- en eetkamer van een villa aan de Chopinlaan met houten bollampen en notenhouten eettafel
     category: particulier
     location: Oss
     services: Totaal ontwerp, plattegrond, 3D visualisatie, kleurgebruik, keuken, buitengevel, isolatie, verlichtingsontwerp
@@ -13,6 +14,7 @@ translations:
   en:
     title: Villa Chopinlaan Oss
     description: A complete design for a villa on the Chopinlaan in Oss. A luxurious bespoke interior, from floor plan and 3D visualisation to kitchen, facade and lighting.
+    alt: Living and dining room of a villa on the Chopinlaan with wooden globe pendants and a walnut dining table
     category: residential
     location: Oss
     services: Full design, floor plan, 3D visualisation, colour scheme, kitchen, exterior facade, insulation, lighting design

@@ -99,6 +99,10 @@
     "services": "Werkzaamheden:",
     "ariaLabel": "Bekijk project: {title}"
   },
+  "projectPage": {
+    "back": "Terug naar alle projecten",
+    "related": "Andere projecten"
+  },
   "impressie": {
     "tagline": "Harmonie met kleurrijke details",
     "heading": "NIEUWBOUWHUIS met moderne, strakke inrichting en kleurrijke accenten!",

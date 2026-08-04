@@ -91,11 +91,8 @@ export async function marketingPages(event: H3Event, locale: Locale): Promise<Ar
 }
 
 /**
- * Project entries. NOTE: these are data records, not pages — ProjectGrid.vue
- * renders them in a client-side lightbox, nothing links to /projects/<slug>,
- * and they are neither prerendered nor in the sitemap. So they are listed here
- * as unlinked content: it is the only crawlable form the project copy has.
- * If project pages are ever built, add the URLs back here.
+ * Project pages. These live at locale-prefixed routes (/projects/<slug> and
+ * /en/projects/<slug>) but read from one locale-neutral content file.
  */
 export async function projectPages(event: H3Event): Promise<Array<ContentPage & { path: string }>> {
     const pages = await allPages(event)
@@ -144,7 +141,7 @@ export async function renderLlmsIndex(event: H3Event): Promise<string> {
         const tr = project.translations?.nl
         const title = tr?.title ?? project.title ?? project.path
         const location = tr?.location ? ` — ${tr.location}` : ''
-        lines.push(`- **${title}**${location}: ${tr?.description ?? ''}`.trimEnd())
+        lines.push(`- [${title}${location}](${localeUrl(project.path, 'nl')}): ${tr?.description ?? ''}`.trimEnd())
     }
     lines.push('')
 
@@ -182,7 +179,7 @@ export async function renderLlmsFull(event: H3Event): Promise<string> {
         lines.push(`### ${l.projects}`, '')
         for (const project of await projectPages(event)) {
             const tr = project.translations?.[locale] ?? project.translations?.nl
-            lines.push(`#### ${tr?.title ?? project.path}`, '')
+            lines.push(`#### ${tr?.title ?? project.path} (${localeUrl(project.path, locale)})`, '')
             if (tr?.description) lines.push(tr.description, '')
             const facts: string[] = []
             if (tr?.location) facts.push(`- **${l.location}:** ${tr.location}`)

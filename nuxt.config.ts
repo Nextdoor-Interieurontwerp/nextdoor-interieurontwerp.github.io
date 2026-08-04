@@ -119,6 +119,14 @@ export default defineNuxtConfig({
     },
     sitemap: {
         enabled: true,
+        // These carry `robots: noindex` in their frontmatter; listing them in the
+        // sitemap as well sends Google two contradicting signals.
+        exclude: [
+            '/privacyverklaring',
+            '/algemene-voorwaarden',
+            '/en/privacyverklaring',
+            '/en/algemene-voorwaarden',
+        ],
     },
     $production: {
         studio: {

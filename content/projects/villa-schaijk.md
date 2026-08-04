@@ -6,6 +6,7 @@ translations:
   nl:
     title: Villa Schaijk
     description: Luxe interieurontwerp voor een villa in Schaijk. Exclusief maatwerk van vloer tot plafond, met plattegrond, 3D visualisaties en persoonlijk kleuradvies.
+    alt: Eetkamer van een villa in Schaijk met wit geoliede eiken tafel en doorkijkhaard naar de woonkamer
     category: particulier
     location: Schaijk
     services: Ontwerp, plattegrond, 3D visualisaties, persoonlijk kleuradvies, inrichting
@@ -13,6 +14,7 @@ translations:
   en:
     title: Villa Schaijk
     description: Luxury interior design for a villa in Schaijk. Exclusive bespoke work from floor to ceiling, with floor plan, 3D visualisations and personal colour advice.
+    alt: Dining room of a villa in Schaijk with a whitewashed oak table and a see-through fireplace to the living room
     category: residential
     location: Schaijk
     services: Design, floor plan, 3D visualisations, personal colour advice, furnishing

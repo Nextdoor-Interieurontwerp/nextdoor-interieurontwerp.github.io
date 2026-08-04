@@ -6,6 +6,7 @@ translations:
   nl:
     title: Aduro
     description: 'Herinrichting van alle kantoren en laboratoria van Aduro Biotech: een kantoorvleugel met glaswand, accentkleuren per kantoor en een multifunctionele kantine.'
+    alt: Atrium van Aduro Biotech van bovenaf, met witte bollampen en zitgroep in oranje, groen en blauw
     category: zakelijk
     location: Aduro Biotech, PivotPark Oss
     services: Inrichting 800m² aan kantoren en laboratoria
@@ -13,6 +14,7 @@ translations:
   en:
     title: Aduro
     description: 'Redesign of all offices and laboratories for Aduro Biotech: a glass-walled office wing, an accent colour per office and a multifunctional canteen.'
+    alt: Aduro Biotech atrium seen from above, with white globe pendants and armchairs in orange, green and blue
     category: business
     location: Aduro Biotech, PivotPark Oss
     services: Furnishing of 800m² of offices and laboratories

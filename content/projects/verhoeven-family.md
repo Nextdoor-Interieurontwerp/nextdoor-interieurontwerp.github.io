@@ -6,6 +6,7 @@ translations:
   nl:
     title: Verhoeven Family
     description: Interieurontwerp en inrichting van het nieuwe bedrijfspand voor de Verhoeven Family of Companies, specialist in intern transport en material handling.
+    alt: Vergaderruimte bij Verhoeven Family of Companies met blauwe stoelen en houten lamellenwand
     category: zakelijk
     location: Verhoeven Family of Companies, Oss
     services: Interieurontwerp en inrichting voor het nieuwe bedrijfspand
@@ -13,6 +14,7 @@ translations:
   en:
     title: Verhoeven Family
     description: Interior design and furnishing of the new business premises for Verhoeven Family of Companies, specialists in internal transport and material handling.
+    alt: Meeting room at Verhoeven Family of Companies with blue chairs and a slatted wood acoustic wall
     category: business
     location: Verhoeven Family of Companies, Oss
     services: Interior design and furnishing for the new business premises

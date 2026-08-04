@@ -6,6 +6,7 @@ translations:
   nl:
     title: Van den Heuvel Makelaars
     description: Ontwerp en inrichting van de kantoorruimtes voor een makelaarskantoor in het centrum van Oss, met nieuwe vloer, verlichtingsplan en een eigen look per ruimte.
+    alt: Kantoren met glazen wanden en foliebanen bij Van den Heuvel Makelaars, met bloemenfotobehang
     category: zakelijk
     location: Van den Heuvel Makelaars, Oss
     services: Interieurontwerp en inrichting kantoorruimtes
@@ -13,6 +14,7 @@ translations:
   en:
     title: Van den Heuvel Makelaars
     description: Design and furnishing of the office spaces for an estate agency in the centre of Oss, with new flooring, a lighting plan and a distinct look per room.
+    alt: Glass-walled offices with frosted film bands at Van den Heuvel Makelaars, with floral wall murals
     category: business
     location: Van den Heuvel Makelaars, Oss
     services: Interior design and furnishing of office spaces

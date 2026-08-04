@@ -99,6 +99,10 @@
     "services": "Services:",
     "ariaLabel": "View project: {title}"
   },
+  "projectPage": {
+    "back": "Back to all projects",
+    "related": "Other projects"
+  },
   "impressie": {
     "tagline": "Harmony with colourful details",
     "heading": "NEW-BUILD HOME with modern, sleek furnishings and colourful accents!",

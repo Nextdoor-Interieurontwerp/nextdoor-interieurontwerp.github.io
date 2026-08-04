@@ -6,6 +6,7 @@ translations:
   nl:
     title: Rabobank Heesch
     description: Fris nieuw uiterlijk en een nieuwe indeling voor het Rabobank kantoor in Heesch, met een centrale balie. NEXTDOOR begeleidde inrichting en verbouwing.
+    alt: Witte ontvangstbalie van Rabobank Heesch van bovenaf, met houten blad en 'Welkom' op de wand
     category: zakelijk
     location: Rabobank, Heesch
     services: Interieurontwerp en inrichting voor het nieuwe bedrijfspand
@@ -13,6 +14,7 @@ translations:
   en:
     title: Rabobank Heesch
     description: A fresh look and revised layout for the Rabobank branch in Heesch, with a central reception desk. NEXTDOOR supervised the furnishing and renovation.
+    alt: The white reception desk at Rabobank Heesch from above, with a wooden top and 'Welkom' on the wall
     category: business
     location: Rabobank, Heesch
     services: Interior design and furnishing for the new business premises

@@ -6,6 +6,7 @@ translations:
   nl:
     title: Patisserie Limburgia
     description: Robuust interieur met een stoer uiterlijk voor Patisserie Limburgia in 's-Hertogenbosch, met de uitvoering verzorgd door Nextdoor Projects.
+    alt: Zaak van Patisserie Limburgia met rode hanglampen, rode leren stoelen en een bakstenen wand
     category: zakelijk
     location: "Patisserie Limburgia, 's-Hertogenbosch"
     services: 3D ontwerp, complete verbouwing, indeling en styling patisseriezaak
@@ -13,6 +14,7 @@ translations:
   en:
     title: Patisserie Limburgia
     description: A robust interior with a bold look for Patisserie Limburgia in 's-Hertogenbosch, with the execution carried out by Nextdoor Projects.
+    alt: Patisserie Limburgia interior with red pendant lamps, red leather chairs and an exposed brick wall
     category: business
     location: "Patisserie Limburgia, 's-Hertogenbosch"
     services: 3D design, complete renovation, layout and styling of the patisserie

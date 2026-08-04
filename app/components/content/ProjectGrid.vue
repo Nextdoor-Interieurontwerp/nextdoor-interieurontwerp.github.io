@@ -20,42 +20,95 @@ const filteredProjects = computed(() => {
   })
 })
 
+const localePath = useLocalePath()
+const route = useRoute()
+
 const selectedProject = ref(null)
-const openLightbox = (project) => {
+
+/**
+ * Each tile is a real <a href> to the project's own page, so crawlers can find
+ * and follow it. For ordinary clicks we cancel the navigation and open the
+ * lightbox instead — the grid stays the way people browse the work. The URL is
+ * still swapped in via history so the project can be linked and shared, and so
+ * the back button closes the lightbox.
+ *
+ * Modified clicks (ctrl/cmd/shift/middle) fall through untouched, so "open in
+ * new tab" lands on the real page. Without JS the link simply navigates.
+ */
+const onTileClick = (event, project) => {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return
+  event.preventDefault()
+  openLightbox(project)
+}
+
+const showProject = (project) => {
   selectedProject.value = project
   document.body.style.overflow = 'hidden'
 }
-const closeLightbox = () => {
+
+const dismiss = () => {
   selectedProject.value = null
   document.body.style.overflow = ''
 }
 
+const openLightbox = (project) => {
+  showProject(project)
+  if (import.meta.client && window.history.state?.lightbox !== project.slug) {
+    // Spread the existing state so Vue Router's own bookkeeping survives.
+    window.history.pushState(
+      { ...window.history.state, lightbox: project.slug },
+      '',
+      localePath(`/projects/${project.slug}`),
+    )
+  }
+}
+
+const closeLightbox = () => {
+  if (import.meta.client && window.history.state?.lightbox) {
+    window.history.back()
+    return
+  }
+  dismiss()
+}
+
+const onPopState = () => {
+  if (!window.history.state?.lightbox) dismiss()
+}
+
+onMounted(() => window.addEventListener('popstate', onPopState))
+
 onUnmounted(() => {
+  if (import.meta.client) window.removeEventListener('popstate', onPopState)
   document.body.style.overflow = ''
 })
+
+// Navigating away by any other means should not leave the lightbox open.
+watch(() => route.path, dismiss)
 </script>
 
 <template>
   <div class="project-grid-wrapper">
     <div class="project-grid">
-      <div
+      <a
         v-for="project in filteredProjects"
         :key="project.id"
         class="project-item"
-        @click="openLightbox(project)"
-        role="button"
+        :href="localePath(`/projects/${project.slug}`)"
         :aria-label="$t('projectGrid.ariaLabel', { title: project.translations?.[locale]?.title ?? project.slug })"
-        tabindex="0"
-        @keydown.enter="openLightbox(project)"
+        @click="onTileClick($event, project)"
       >
         <div class="image-wrapper">
-          <img :src="project.image" :alt="project.translations?.[locale]?.title ?? project.slug" loading="lazy" />
+          <img
+            :src="project.image"
+            :alt="project.translations?.[locale]?.alt ?? project.translations?.[locale]?.title ?? project.slug"
+            loading="lazy"
+          />
           <div class="hover-overlay">
             <h3>{{ project.translations?.[locale]?.title ?? project.slug }}</h3>
             <span class="btn-view">{{ $t('projectGrid.viewProject') }}</span>
           </div>
         </div>
-      </div>
+      </a>
     </div>
 
     <Transition name="fade">
@@ -64,7 +117,7 @@ onUnmounted(() => {
           <button class="close-btn" @click="closeLightbox" :aria-label="$t('projectGrid.closeLabel')">&times;</button>
           <div class="lightbox-grid">
             <div class="lightbox-image">
-              <img :src="selectedProject.image" :alt="selectedProject.translations?.[locale]?.title ?? selectedProject.slug" />
+              <img :src="selectedProject.image" :alt="selectedProject.translations?.[locale]?.alt ?? selectedProject.translations?.[locale]?.title ?? selectedProject.slug" />
             </div>
             <div class="lightbox-info">
               <p class="project-category">{{ selectedProject.translations?.[locale]?.category }}</p>
@@ -98,7 +151,7 @@ onUnmounted(() => {
 
 .project-item {
   cursor: pointer;
-  outline: none;
+  display: block;
 }
 
 .image-wrapper {

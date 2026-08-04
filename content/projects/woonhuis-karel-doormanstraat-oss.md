@@ -6,6 +6,7 @@ translations:
   nl:
     title: Woonhuis Karel Doormanstraat Oss
     description: Volledig interieurontwerp voor een woonhuis aan de Karel Doormanstraat in Oss. Van plattegrond en 3D visualisatie tot kleurgebruik, keuken en badkamer.
+    alt: Woonkamer met stalen taatsdeuren naar de eetkamer, grijze bank en patchwork vloerkleed
     category: particulier
     location: Oss
     services: Totaal ontwerp, plattegrond, 3D visualisatie, kleurgebruik, keuken, badkamer
@@ -13,6 +14,7 @@ translations:
   en:
     title: Woonhuis Karel Doormanstraat Oss
     description: A complete interior design for a home on the Karel Doormanstraat in Oss, from floor plan and 3D visualisation to colour scheme, kitchen and bathroom.
+    alt: Living room with steel-framed doors through to the dining room, a grey sofa and a patchwork rug
     category: residential
     location: Oss
     services: Full design, floor plan, 3D visualisation, colour scheme, kitchen, bathroom

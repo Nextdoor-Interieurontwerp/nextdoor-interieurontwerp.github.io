@@ -6,6 +6,7 @@ translations:
   nl:
     title: Woonhuis Doelenstraat Oss
     description: Modern woonhuis aan de Doelenstraat in Oss. Stijlvol en functioneel interieur voor het hele gezin, inclusief uitbouw, nieuwe keuken en vloerverwarming.
+    alt: Keukeneiland met zwart blad tegen een bakstenen wand, met visgraatvloer en tuindeuren
     category: particulier
     location: Oss
     services: Totaal ontwerp, plattegrond, 3D visualisatie, kleurgebruik, keuken, uitbouw, aanbouw, vloerverwarming
@@ -13,6 +14,7 @@ translations:
   en:
     title: Woonhuis Doelenstraat Oss
     description: A modern family home on the Doelenstraat in Oss. Stylish, functional interior for the whole family, including an extension, kitchen and underfloor heating.
+    alt: Kitchen island with a black worktop against an exposed brick wall, with herringbone flooring and garden doors
     category: residential
     location: Oss
     services: Full design, floor plan, 3D visualisation, colour scheme, kitchen, extension, underfloor heating

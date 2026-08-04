@@ -6,6 +6,7 @@ translations:
   nl:
     title: Acerta Pharma
     description: Complete verbouwing en herindeling voor Acerta Pharma, met ergonomische werkplekken, functionele overlegruimtes en kantoren met glazen puien en taatsdeuren.
+    alt: Kantoorgang bij Acerta Pharma met zwarte stalen glaswanden, lichte houten vloer en gele accentwand
     category: zakelijk
     location: Acerta Pharma, Oss
     services: Verbouwing, herindeling, ontwerp en inrichting van kantoren en gezamenlijke ruimtes
@@ -13,6 +14,7 @@ translations:
   en:
     title: Acerta Pharma
     description: A complete renovation and redesign for Acerta Pharma, with ergonomic workstations, functional meeting spaces and offices with glass facades and pivot doors.
+    alt: Office corridor at Acerta Pharma with black steel glass walls, light wood flooring and a yellow accent wall
     category: business
     location: Acerta Pharma, Oss
     services: Renovation, redesign, and furnishing of offices and shared spaces

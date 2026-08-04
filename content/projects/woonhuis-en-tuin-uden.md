@@ -6,6 +6,7 @@ translations:
   nl:
     title: Woonhuis en tuin, Uden
     description: Integraal ontwerp voor woning en tuin in Uden. Binnen en buiten in perfecte harmonie, met plattegrond, 3D visualisaties en persoonlijk kleuradvies.
+    alt: Woonkamer in Uden met linnen gordijnen, cremekleurige bank, cognac leren fauteuils en boekenwand
     category: particulier
     location: Uden
     services: Ontwerp, plattegrond, 3D visualisaties, persoonlijk kleuradvies, inrichting
@@ -13,6 +14,7 @@ translations:
   en:
     title: Home and Garden, Uden
     description: An integral design for home and garden in Uden. Interior and exterior in perfect harmony, with floor plan, 3D visualisations and personal colour advice.
+    alt: Living room in Uden with linen curtains, a cream sofa, cognac leather armchairs and a wall of bookshelves
     category: residential
     location: Uden
     services: Design, floor plan, 3D visualisations, personal colour advice, furnishing
