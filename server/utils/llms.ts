@@ -1,6 +1,6 @@
 import type { H3Event } from 'h3'
 import { queryCollection } from '@nuxt/content/server'
-import { BUSINESS, SITE_URL, formattedAddress } from '~~/shared/business'
+import { BUSINESS, SERVICES_BY_LOCALE, SITE_URL, formattedAddress } from '~~/shared/business'
 
 export type Locale = 'nl' | 'en'
 
@@ -13,24 +13,8 @@ export const TAGLINE: Record<Locale, string> = {
     en: 'Full-service agency for interior design, interior advice and styling, construction supervision and consultancy for residential and business clients in Oss and surroundings (Noord-Brabant, the Netherlands).',
 }
 
-export const SERVICES: Record<Locale, string[]> = {
-    nl: [
-        'Interieurontwerp (particulier & zakelijk)',
-        'Interieuradvies en kleuradvies',
-        'Bouwbegeleiding en verbouwadvies',
-        '3D-visualisaties en plattegronden',
-        'Moodboards en materiaaladvies',
-        'Projectbegeleiding van A tot Z',
-    ],
-    en: [
-        'Interior design (residential & business)',
-        'Interior and colour advice',
-        'Construction supervision and renovation advice',
-        '3D visualisations and floor plans',
-        'Mood boards and material advice',
-        'Project supervision from start to finish',
-    ],
-}
+/** Shared with the schema.org offer catalogue — see shared/business.ts. */
+export const SERVICES: Record<Locale, readonly string[]> = SERVICES_BY_LOCALE
 
 export const AREA_SERVED: Record<Locale, string> = {
     nl: 'Oss en omgeving, heel Noord-Brabant en op aanvraag door heel Nederland',

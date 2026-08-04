@@ -75,6 +75,20 @@ if (imageUrl.value) {
 }
 
 useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: () => [
+      { name: 'NEXTDOOR', item: localePath('/') },
+      // Categories are stored lowercase; breadcrumbs can surface in search
+      // results, so present them capitalised.
+      {
+        name: category.value
+          ? category.value.charAt(0).toUpperCase() + category.value.slice(1)
+          : 'Projecten',
+        item: backLink.value,
+      },
+      { name: title.value },
+    ],
+  }),
   defineWebPage({
     '@type': 'ItemPage',
     name: () => title.value,

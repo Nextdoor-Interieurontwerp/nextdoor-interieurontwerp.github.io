@@ -3,7 +3,8 @@
     "home": "NEXTDOOR",
     "business": "BUSINESS",
     "residential": "RESIDENTIAL",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "oss": "Interior design Oss"
   },
   "header": {
     "menuToggle": "Open or close menu"

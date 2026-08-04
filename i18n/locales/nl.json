@@ -3,7 +3,8 @@
     "home": "NEXTDOOR",
     "business": "ZAKELIJK",
     "residential": "PARTICULIER",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "oss": "Interieurontwerp Oss"
   },
   "header": {
     "menuToggle": "Menu openen of sluiten"

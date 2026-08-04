@@ -1,6 +1,6 @@
 import { readdirSync, existsSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
-import { BUSINESS, SITE_URL, socialProfiles } from './shared/business'
+import { BUSINESS, SERVICES, SITE_URL, socialProfiles } from './shared/business'
 
 export default defineNuxtConfig({
     extends: ['./layers/consent'],
@@ -88,6 +88,22 @@ export default defineNuxtConfig({
                 { '@type': 'AdministrativeArea', name: 'Noord-Brabant' },
                 { '@type': 'Country', name: 'Nederland' },
             ],
+            // The services are otherwise only stated in prose, so nothing
+            // machine-readable said what this business actually sells.
+            hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: 'Interieurontwerp en -advies',
+                itemListElement: SERVICES.map(service => ({
+                    '@type': 'Offer',
+                    itemOffered: {
+                        '@type': 'Service',
+                        name: service.name,
+                        serviceType: service.name,
+                        provider: { '@id': `${SITE_URL}/#identity` },
+                        areaServed: { '@type': 'AdministrativeArea', name: 'Noord-Brabant' },
+                    },
+                })),
+            },
             sameAs: socialProfiles,
         }
     },

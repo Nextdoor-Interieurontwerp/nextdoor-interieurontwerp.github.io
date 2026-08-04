@@ -44,6 +44,33 @@ export const BUSINESS = {
     },
 } as const
 
+/**
+ * The service list, in the client's own words — these are the same six lines
+ * that have always appeared in llms.txt. Kept here so the structured data and
+ * the generated text files cannot describe the business differently.
+ */
+export const SERVICES_BY_LOCALE = {
+    nl: [
+        'Interieurontwerp (particulier & zakelijk)',
+        'Interieuradvies en kleuradvies',
+        'Bouwbegeleiding en verbouwadvies',
+        '3D-visualisaties en plattegronden',
+        'Moodboards en materiaaladvies',
+        'Projectbegeleiding van A tot Z',
+    ],
+    en: [
+        'Interior design (residential & business)',
+        'Interior and colour advice',
+        'Construction supervision and renovation advice',
+        '3D visualisations and floor plans',
+        'Mood boards and material advice',
+        'Project supervision from start to finish',
+    ],
+} as const
+
+/** Dutch service names, used for the schema.org offer catalogue. */
+export const SERVICES = SERVICES_BY_LOCALE.nl.map(name => ({ name }))
+
 /** "St. Leonardusstraat 4, 5341 AN Oss, Nederland" */
 export const formattedAddress = [
     BUSINESS.address.streetAddress,

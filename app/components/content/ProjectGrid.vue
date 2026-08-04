@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const props = defineProps<{
   category?: string
+  /** Filter to projects whose `location` mentions this place, e.g. "Oss". */
+  location?: string
 }>()
 
 const { locale } = useI18n()
@@ -12,12 +14,18 @@ const { data: allProjects } = await useAsyncData(
 )
 
 const filteredProjects = computed(() => {
-  if (!allProjects.value) return []
-  if (!props.category) return allProjects.value
-  return allProjects.value.filter(p => {
-    const t = p.translations?.[locale.value]
-    return t?.category === props.category
-  })
+  let projects = allProjects.value ?? []
+  if (props.category) {
+    projects = projects.filter(p => p.translations?.[locale.value]?.category === props.category)
+  }
+  if (props.location) {
+    // Locations read like "Acerta Pharma, Oss" or "Aduro Biotech, PivotPark
+    // Oss", so match on mention rather than equality.
+    const needle = props.location.toLowerCase()
+    projects = projects.filter(p =>
+      (p.translations?.nl?.location ?? '').toLowerCase().includes(needle))
+  }
+  return projects
 })
 
 const localePath = useLocalePath()

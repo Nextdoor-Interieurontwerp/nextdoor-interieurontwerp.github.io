@@ -4,6 +4,7 @@
     "name": "Phone tap",
     "category": "PHONE_CALL_LEAD",
     "valueEur": 750,
+    "primary": true,
     "trigger": { "type": "linkClick", "hrefStartsWith": "tel:" }
   },
   {
@@ -11,13 +12,15 @@
     "name": "Email click",
     "category": "CONTACT",
     "valueEur": 450,
+    "primary": true,
     "trigger": { "type": "linkClick", "hrefStartsWith": "mailto:" }
   },
   {
     "key": "homePageView",
     "name": "Home page view",
     "category": "PAGE_VIEW",
-    "valueEur": 100,
+    "valueEur": 0,
+    "primary": false,
     "trigger": { "type": "pageView", "path": "/" }
   },
   {
@@ -26,6 +29,7 @@
     "category": "PHONE_CALL_LEAD",
     "actionType": "AD_CALL",
     "valueEur": 750,
+    "primary": true,
     "trigger": { "type": "external" }
   }
 ]
