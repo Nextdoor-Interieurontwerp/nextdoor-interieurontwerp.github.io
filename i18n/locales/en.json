@@ -4,7 +4,9 @@
     "business": "BUSINESS",
     "residential": "RESIDENTIAL",
     "contact": "CONTACT",
-    "oss": "Interior design Oss"
+    "oss": "Interior design Oss",
+    "bouwbegeleiding": "Construction supervision",
+    "werkgebied": "Service area"
   },
   "header": {
     "menuToggle": "Open or close menu"

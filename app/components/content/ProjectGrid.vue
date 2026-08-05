@@ -3,6 +3,11 @@ const props = defineProps<{
   category?: string
   /** Filter to projects whose `location` mentions this place, e.g. "Oss". */
   location?: string
+  /** Show exactly these projects, in this order. Comma-separated slugs. */
+  slugs?: string
+  /** Optional centred heading above the grid, matching the homepage sections. */
+  title?: string
+  bg?: 'blue' | 'light' | 'white'
 }>()
 
 const { locale } = useI18n()
@@ -17,6 +22,11 @@ const filteredProjects = computed(() => {
   let projects = allProjects.value ?? []
   if (props.category) {
     projects = projects.filter(p => p.translations?.[locale.value]?.category === props.category)
+  }
+  if (props.slugs) {
+    const wanted = props.slugs.split(',').map(s => s.trim()).filter(Boolean)
+    const bySlug = new Map(projects.map(p => [p.slug, p]))
+    return wanted.map(s => bySlug.get(s)).filter(Boolean)
   }
   if (props.location) {
     // Locations read like "Acerta Pharma, Oss" or "Aduro Biotech, PivotPark
@@ -95,7 +105,8 @@ watch(() => route.path, dismiss)
 </script>
 
 <template>
-  <div class="project-grid-wrapper">
+  <div class="project-grid-wrapper" :class="bg ? `bg-${bg}` : ''">
+    <h2 v-if="title" class="grid-title">{{ title }}</h2>
     <div class="project-grid">
       <a
         v-for="project in filteredProjects"
@@ -149,6 +160,24 @@ watch(() => route.path, dismiss)
 <style scoped>
 .project-grid-wrapper {
   width: 100%;
+}
+
+/* Matches .section-title on the homepage sections so a page mixing the two
+   keeps one heading rhythm. */
+.grid-title {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 5rem;
+  padding-top: 8rem;
+  color: var(--text-dark);
+}
+
+@media (max-width: 600px) {
+  .grid-title {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+  }
 }
 
 .project-grid {

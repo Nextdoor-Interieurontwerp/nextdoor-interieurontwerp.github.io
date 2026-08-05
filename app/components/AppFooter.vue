@@ -10,7 +10,8 @@
           <li><NuxtLink :to="localePath('/')">NEXTDOOR</NuxtLink></li>
           <li><NuxtLink :to="localePath('/zakelijk')">{{ $t('nav.business') }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/particulier')">{{ $t('nav.residential') }}</NuxtLink></li>
-          <li><NuxtLink :to="localePath('/interieurontwerp-oss')">{{ $t('nav.oss') }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/bouwbegeleiding')">{{ $t('nav.bouwbegeleiding') }}</NuxtLink></li>
+          <li><NuxtLink :to="localePath('/werkgebied')">{{ $t('nav.werkgebied') }}</NuxtLink></li>
           <li><NuxtLink :to="localePath('/contact')">{{ $t('nav.contact') }}</NuxtLink></li>
         </ul>
       </div>

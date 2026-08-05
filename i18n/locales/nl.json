@@ -4,7 +4,9 @@
     "business": "ZAKELIJK",
     "residential": "PARTICULIER",
     "contact": "CONTACT",
-    "oss": "Interieurontwerp Oss"
+    "oss": "Interieurontwerp Oss",
+    "bouwbegeleiding": "Bouwbegeleiding",
+    "werkgebied": "Werkgebied"
   },
   "header": {
     "menuToggle": "Menu openen of sluiten"
