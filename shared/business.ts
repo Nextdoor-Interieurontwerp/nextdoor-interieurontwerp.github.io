@@ -37,6 +37,15 @@ export const BUSINESS = {
         latitude: 51.768747,
         longitude: 5.517910,
     },
+    /**
+     * Google's own identifiers for this location. The plus code encodes the
+     * coordinates; the map link is the short share URL from the listing. Both
+     * are emitted as `hasMap` so Google has an unambiguous statement of which
+     * place on its map this site belongs to — the listing it surfaced for a
+     * while pointed at a shop that no longer exists.
+     */
+    plusCode: 'QG99+F4 Oss',
+    mapUrl: 'https://maps.app.goo.gl/5FK6qXJgrMLJqgYh7',
     socials: {
         instagram: 'https://www.instagram.com/nextdoorinterieurontwerp',
         linkedin: 'https://www.linkedin.com/company/nextdoor-interieurontwerp',

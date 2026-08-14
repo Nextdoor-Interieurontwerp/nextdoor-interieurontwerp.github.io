@@ -5,6 +5,7 @@
       <slot />
     </main>
     <AppFooter />
+    <StickyContact />
     <ConsentBanner />
   </div>
 </template>

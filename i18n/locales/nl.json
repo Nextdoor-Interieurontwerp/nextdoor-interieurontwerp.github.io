@@ -125,5 +125,10 @@
     "cap9": "Plattegrond tweede verdieping",
     "cap10": "Meubels op maat",
     "cap11": "Kleurkaart"
+  },
+  "stickyContact": {
+    "call": "Bellen",
+    "mail": "Mailen",
+    "aria": "Snel contact opnemen"
   }
 }

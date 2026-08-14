@@ -125,5 +125,10 @@
     "cap9": "Second floor plan",
     "cap10": "Custom furniture",
     "cap11": "Colour chart"
+  },
+  "stickyContact": {
+    "call": "Call",
+    "mail": "Email",
+    "aria": "Quick contact"
   }
 }

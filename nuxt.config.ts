@@ -76,6 +76,13 @@ export default defineNuxtConfig({
                 latitude: BUSINESS.geo.latitude,
                 longitude: BUSINESS.geo.longitude,
             },
+            // Points at the Google listing explicitly. Google surfaced a dead
+            // nextdoorshop.eu listing for this business for a while; naming the
+            // right place leaves less room for it to guess again. There is no
+            // schema.org property for a plus code, so that lives in the footer
+            // as text rather than being forced into a field meant for GS1
+            // location numbers.
+            hasMap: BUSINESS.mapUrl,
             openingHoursSpecification: [
                 {
                     dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
